@@ -1,9 +1,0 @@
-        .env
-        .env.*
-        !.env.example 
-        # Ajouter spécifiquement vos fichiers si besoin
-        /outbound/.env.local
-        /outbound/.env.temp 
-        # Ajoutez d'autres chemins si vous avez des .env ailleurs
-        # Ignore specific demo/config folders
-        /Cartesia/Cabinet_Medical/
