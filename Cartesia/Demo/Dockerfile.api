@@ -19,14 +19,15 @@ RUN echo "Installing LiveKit CLI using the official script..." && \
     lk --version || (echo "ERROR: lk command failed after installation script!"; exit 1)
 # --- Fin Installation CLI ---
 
-# Copier le fichier de dépendances de l'API
-COPY api/requirements.txt ./
+# Copier le fichier de dépendances de l'API (depuis le nouveau chemin)
+COPY Cartesia/Demo/api/requirements.txt ./
 
 # Installer les dépendances Python
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copier le code de l'application API
-COPY api/ ./api/
+# Copier le code de l'application API (depuis le nouveau chemin)
+# Copie le contenu de Cartesia/Demo/api dans /app/api
+COPY Cartesia/Demo/api/ ./api/
 
 # Exposer le port que Uvicorn utilisera (la plateforme le mappera)
 EXPOSE 8000
