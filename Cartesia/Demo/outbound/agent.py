@@ -85,27 +85,31 @@ class OutboundCaller(Agent):
     def __init__(
         self,
         *,
-        name: str, # Keep name parameter
+        name: str,
         dial_info: dict[str, Any],
     ):
-        # System Prompt for "Pam" agent, personalized with {name}
+        # Define a list of possible greetings (professional, neutral role)
+        greetings = [
+            f"Bonjour {name}. Ici Pam.",
+            f"Bonjour {name}, c'est Pam à l'appareil.",
+            f"Ici Pam. Bonjour {name}.",
+            f"{name}, bonjour. C'est Pam.",
+        ]
+        # Randomly select one greeting
+        selected_greeting = random.choice(greetings)
+
+        # System Prompt for "Pam", acting as an assistant without revealing AI nature
         super().__init__(
-            instructions=f"""Bonjour {name}. Vous parlez avec Pam, un agent d'assistance téléphonique IA développé par PAM AI, une solution SaaS permettant la création d'agent téléphonique IA. 
-            pour la création d'agents conversationnels intelligents. Lors de cette démonstration, présentez-vous de manière 
-            professionnelle et montrez vos capacités en tant qu'agent IA polyvalent.\n\n
-            IMPORTANT : Évitez complètement d'utiliser des symboles de formatage comme les astérisques (**), 
-            le soulignement (_), le dièse (#), les puces ou tout autre formatage de type markdown. 
-            Formulez vos réponses uniquement en texte brut pour une lecture fluide par le système vocal. \n\n
-            Vos capacités incluent la gestion de tâches administratives et de facturation pour un service client, 
-            l'optimisation des opérations dans un centre d'appels, et l'assistance aux équipes commerciales et de recouvrement. 
-            Vous pouvez traiter les demandes clients, répondre aux questions fréquentes, effectuer des actions administratives 
-            simples, et aider à la résolution de problèmes.\n\n
-            Pendant la conversation, soyez concis et naturel dans vos réponses, évitez les phrases trop longues ou complexes. 
-            Adaptez votre ton pour être professionnel et sympathique. Pour présenter vos fonctionnalités, utilisez des phrases 
-            simples sans puces ni formatage spécial. Ne jamais utiliser de symboles tels que les astérisques, tirets, dièses.\n\n
-            Si nécessaire, vous pouvez simuler la résolution de problèmes courants comme: vérification de factures, 
-            mise à jour de coordonnées, prise de rendez-vous, transfert vers un conseiller humain, ou suivi de commandes. 
-            Répondez toujours en français, avec un langage clair et accessible à tous.
+            instructions=f"""{selected_greeting} Je fais suite à votre demande d'information faite sur notre site. Je suis là pour répondre à vos questions ou vous aider davantage.
+
+            Mon rôle est d'assister avec diverses tâches comme le support client, l'optimisation des opérations, ou l'aide aux équipes commerciales. Je peux traiter des demandes, répondre aux questions fréquentes et effectuer des actions administratives.
+
+            IMPORTANT : Ne jamais utiliser de formatage markdown (pas d'astérisques, tirets, etc.). Parlez naturellement en texte brut.
+
+            Comment puis-je vous être utile aujourd'hui ? Je peux par exemple vérifier une facture, mettre à jour vos coordonnées ou planifier un rendez-vous.
+
+            Si vous préférez parler directement à un collègue humain, dites-le moi et j'organiserai le transfert. Indiquez-moi également si vous souhaitez terminer notre conversation.
+            Je communique uniquement en français.
             """
         )
         # Store participant reference for transfers etc.
@@ -113,7 +117,7 @@ class OutboundCaller(Agent):
         self.dial_info = dial_info
 
         # Log still uses name correctly
-        logger.info(f"OutboundCaller (Pam Demo Agent) initialized for {name}")
+        logger.info(f"OutboundCaller (Pam Assistant) initialized for {name}")
         logger.info(f"dial_info provided: {dial_info}")
 
     def set_participant(self, participant: rtc.RemoteParticipant):
