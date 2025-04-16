@@ -266,8 +266,11 @@ async def entrypoint(ctx: JobContext):
 
     except json.JSONDecodeError as e:
         logger.error(f"Erreur lors du décodage des métadonnées JSON: {e}")
-        logger.error(f"Contenu brut des métadonnées: {ctx.job.metadata or os.getenv("LK_JOB_METADATA", "{}")}")
+        # Utiliser une variable temporaire pour éviter l'erreur de syntaxe f-string
+        raw_metadata_content = ctx.job.metadata or os.getenv("LK_JOB_METADATA", "{}")
+        logger.error(f"Contenu brut des métadonnées: {raw_metadata_content}")
         # Keep dial_info as {}, defaults for names/phone will be used
+        dial_info = {} # Assurer que dial_info est aussi initialisé ici en cas d'erreur
 
     # Determine phone number: Parsed Metadata > PHONE_NUMBER env var
     if not phone_number:
