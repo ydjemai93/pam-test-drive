@@ -129,9 +129,19 @@ async def get_agent_by_id_from_xano(agent_id: int, user_id: int) -> dict | None:
         response = requests.get(get_url, headers=headers)
         response.raise_for_status()
         agent = response.json()
+        
+        # --- DEBUG LOGGING --- 
+        xano_user_id = agent.get('user_id')
+        print(f"[DEBUG] Agent fetched from Xano: ID={agent.get('id')}, Belongs to User ID (in Xano): {xano_user_id} (Type: {type(xano_user_id)})")
+        print(f"[DEBUG] Requesting User ID (from token): {user_id} (Type: {type(user_id)})")
+        # --- END DEBUG LOGGING ---
+        
         # SECURITY CHECK: Verify the agent belongs to the requesting user
-        if agent.get('user_id') != user_id:
+        if xano_user_id != user_id:
+            print(f"[DEBUG] Ownership check failed: {xano_user_id} != {user_id}") # Log failure
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Agent not found") # Or 403 Forbidden
+        
+        print(f"[DEBUG] Ownership check passed for agent {agent_id}") # Log success
         return agent
     except requests.exceptions.RequestException as e:
         _handle_xano_error(e, "get agent by id")
