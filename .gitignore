@@ -3,3 +3,9 @@
 # Ajoutez d'autres chemins si vous avez des .env ailleurs
 # Ignore specific demo/config folders
 /Cartesia/Cabinet_Medical/
+
+# Ignore Telnyx/Twilio specific variations if needed
+MARK_I_TWILIO/
+
+# Ignore environment files
+MARK_I/backend_python/.env
