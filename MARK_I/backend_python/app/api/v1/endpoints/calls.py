@@ -43,9 +43,9 @@ async def initiate_call(
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to retrieve agent configuration")
 
     # 2. Define Webhook URL
-    # IMPORTANT: This URL must be publicly accessible (use ngrok)
+    # IMPORTANT: This URL must be publicly accessible
     # TODO: Get base URL from settings or environment
-    base_url = "https://08f0-193-176-66-9.ngrok-free.app" # Updated ngrok URL
+    base_url = "https://pam-test-drive-3hm7.onrender.com" # Correct Render URL
     telnyx_webhook_url = f"{base_url}/api/v1/calls/webhooks/telnyx/call_control"
     print(f"Using Telnyx webhook URL: {telnyx_webhook_url}")
 
