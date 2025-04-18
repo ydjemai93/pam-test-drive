@@ -3,6 +3,7 @@ from fastapi.responses import PlainTextResponse
 import uuid
 import datetime
 import requests
+import asyncio # <-- Import asyncio for sleep
 
 from app.api.v1.dependencies import get_current_user_id
 from app.models.call import CallCreate, CallRead
@@ -125,31 +126,53 @@ async def handle_telnyx_webhook(request: Request):
     if event_type == "call.answered":
         print(f"Call answered event for {call_control_id}")
         
-        # We need the Telnyx API Key and the LiveKit SIP URI for this call
-        # Retrieve them from the call record in Xano using call_control_id
-        try:
-            # Assuming update_call_record_in_xano can also be used to fetch by Telnyx ID?
-            # Or we need a dedicated get_call_by_telnyx_id function?
-            # Let's reuse update_call_record_in_xano's GET part for now
-            get_url = "https://x8ki-letl-twmt.n7.xano.io/api:BylZxBJT/calls" # FIXME: Use settings
-            headers = xano_service._get_xano_backend_headers() # Use helper from xano_service
-            params = {"telnyx_call_control_id_filter": call_control_id} # ADJUST PARAM NAME
+        call_record = None
+        agent_config = None
+        livekit_sip_uri = None
+        telnyx_api_key = None
+        max_retries = 3
+        retry_delay_seconds = 1
+
+        for attempt in range(max_retries):
+            print(f"Attempt {attempt + 1}/{max_retries} to fetch call record for {call_control_id}...")
+            try:
+                get_url = "https://x8ki-letl-twmt.n7.xano.io/api:BylZxBJT/calls" # FIXME: Use settings
+                headers = xano_service._get_xano_backend_headers() 
+                params = {"telnyx_call_control_id_filter": call_control_id} # ADJUST PARAM NAME if needed
+                
+                get_response = requests.get(get_url, headers=headers, params=params)
+                get_response.raise_for_status()
+                results = get_response.json()
+                
+                if results and len(results) == 1:
+                    call_record = results[0]
+                    print(f"Successfully fetched call record on attempt {attempt + 1}")
+                    break # Found the record, exit retry loop
+                else:
+                    print(f"Call record not found or not unique on attempt {attempt + 1}. Results: {len(results)}")
+
+            except Exception as e:
+                print(f"Error fetching call record on attempt {attempt + 1}: {e}")
             
-            get_response = requests.get(get_url, headers=headers, params=params)
-            get_response.raise_for_status()
-            results = get_response.json()
-            
-            if results and len(results) == 1:
-                call_record = results[0]
+            # Wait before retrying if not the last attempt
+            if attempt < max_retries - 1:
+                print(f"Waiting {retry_delay_seconds}s before next attempt...")
+                await asyncio.sleep(retry_delay_seconds)
+            else:
+                 print(f"Error: Could not find unique call record in Xano for call_control_id {call_control_id} after {max_retries} attempts.")
+                 return Response(status_code=status.HTTP_200_OK) # Acknowledge Telnyx, but log final error
+
+        # --- Proceed only if call_record was found --- 
+        if call_record:
+            try: 
                 agent_id = call_record.get('agent_id')
                 livekit_sip_uri = call_record.get('livekit_sip_uri')
-                user_id = call_record.get('user_id') # Needed to fetch agent config
+                user_id = call_record.get('user_id')
                 
                 if not all([agent_id, livekit_sip_uri, user_id]):
-                     print(f"Error: Missing agent_id, livekit_sip_uri, or user_id in call record for {call_control_id}")
-                     return Response(status_code=status.HTTP_200_OK) # Acknowledge Telnyx, but log error
+                     print(f"Error: Missing agent_id, livekit_sip_uri, or user_id in fetched call record for {call_control_id}")
+                     return Response(status_code=status.HTTP_200_OK)
                 
-                # Fetch agent config to get the API key
                 agent_config = await xano_service.get_agent_by_id_from_xano(agent_id, user_id)
                 if not agent_config:
                     print(f"Error: Could not find agent config for agent {agent_id} associated with call {call_control_id}")
@@ -182,14 +205,9 @@ async def handle_telnyx_webhook(request: Request):
                         telnyx_call_control_id=call_control_id,
                         update_data={"status": "failed", "ended_reason": "bridge_failed"}
                      )
-            else:
-                print(f"Error: Could not find unique call record in Xano for call_control_id {call_control_id} in webhook.")
-                # Cannot proceed with bridge
-
-        except Exception as e:
-            # Catch-all to prevent webhook failures affecting Telnyx
-            print(f"Error processing Telnyx 'call.answered' webhook for {call_control_id}: {e}")
-            # Log error but return 200 OK to Telnyx
+            except Exception as e:
+                # Catch-all for processing after fetch
+                print(f"Error processing Telnyx 'call.answered' webhook after fetching record for {call_control_id}: {e}")
 
     # Handle other events (optional)
     elif event_type == "call.hangup":
