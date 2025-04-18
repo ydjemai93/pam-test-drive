@@ -2,6 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status, Request, Response
 from fastapi.responses import PlainTextResponse
 import uuid
 import datetime
+import requests
 
 from app.api.v1.dependencies import get_current_user_id
 from app.models.call import CallCreate, CallRead
