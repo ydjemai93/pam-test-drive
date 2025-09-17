@@ -1,0 +1,210 @@
+2025-07-16 22:17:43,714 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-07-16 22:17:43,721 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-07-16 22:17:43,721 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-07-16 22:17:43,721 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-07-16 22:17:43,721 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-07-16 22:17:43,730 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-07-16 22:17:43,730 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-07-16 22:17:43,730 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-179
+2025-07-16 22:17:43,730 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-179", "supabase_call_id": 179, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", "initial_greeting": "Hi this is Pam, how can I help ?", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-16 22:17:43,730 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-07-16 22:17:43,730 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+Webhook executor not available: No module named 'api'
+App actions not available: attempted relative import with no known parent package
+2025-07-16 22:17:46,651 - outbound-caller - INFO - Pathway integration loaded successfully
+2025-07-16 22:17:46,652 - root - INFO - Starting LiveKit Worker 'outbound-caller' on port 52190
+2025-07-16 22:17:46,659 - livekit.agents - INFO - starting worker
+2025-07-16 22:17:46,684 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,686 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,686 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,687 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,687 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,688 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,688 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,689 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,690 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,690 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,690 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,691 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:46,716 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,716 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,717 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,717 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,718 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,718 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,718 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,718 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,718 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,719 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,719 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,719 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:46,720 - livekit.agents - INFO - see tracing information at http://localhost:52190/debug
+2025-07-16 22:17:46,827 - livekit.agents - INFO - registered worker
+2025-07-16 22:17:47,439 - livekit.agents - INFO - received job request
+2025-07-16 22:17:47,460 - outbound-caller - INFO - Entrée dans la fonction entrypoint pour le job AJ_Ykjdmr7FanL4
+2025-07-16 22:17:47,460 - outbound-caller - INFO - Entrée dans la fonction entrypoint pour le job AJ_Ykjdmr7FanL4
+2025-07-16 22:17:47,551 - livekit.agents - INFO - initializing job runner
+2025-07-16 22:17:47,551 - livekit.agents - INFO - job runner initialized
+2025-07-16 22:17:48,211 - outbound-caller - INFO - Connexion établie à la room agent-call-179
+2025-07-16 22:17:48,211 - outbound-caller - INFO - Connexion établie à la room agent-call-179
+2025-07-16 22:17:48,212 - outbound-caller - INFO - Métadonnées brutes du job: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-179", "supabase_call_id": 179, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", "initial_greeting": "Hi this is Pam, how can I help ?", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-16 22:17:48,212 - outbound-caller - INFO - Métadonnées brutes du job: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-179", "supabase_call_id": 179, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", "initial_greeting": "Hi this is Pam, how can I help ?", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-16 22:17:48,212 - outbound-caller - INFO - Métadonnées parsées: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", 'initial_greeting': 'Hi this is Pam, how can I help ?', 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-16 22:17:48,212 - outbound-caller - INFO - Métadonnées parsées: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", 'initial_greeting': 'Hi this is Pam, how can I help ?', 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-16 22:17:48,212 - outbound-caller - INFO - supabase_call_id extrait des métadonnées: 179
+2025-07-16 22:17:48,212 - outbound-caller - INFO - supabase_call_id extrait des métadonnées: 179
+2025-07-16 22:17:48,212 - outbound-caller - INFO - Métadonnées du job: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-179", "supabase_call_id": 179, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", "initial_greeting": "Hi this is Pam, how can I help ?", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-16 22:17:48,212 - outbound-caller - INFO - Métadonnées du job: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-179", "supabase_call_id": 179, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", "initial_greeting": "Hi this is Pam, how can I help ?", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-16 22:17:48,213 - outbound-caller - INFO - dial_info parsed from metadata: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", 'initial_greeting': 'Hi this is Pam, how can I help ?', 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-16 22:17:48,213 - outbound-caller - INFO - dial_info parsed from metadata: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", 'initial_greeting': 'Hi this is Pam, how can I help ?', 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-16 22:17:48,213 - outbound-caller - INFO - Using firstName from metadata or default: Valued Customer
+2025-07-16 22:17:48,213 - outbound-caller - INFO - Using firstName from metadata or default: Valued Customer
+2025-07-16 22:17:48,213 - outbound-caller - INFO - OUTBOUND CALL: To +33661329235
+2025-07-16 22:17:48,213 - outbound-caller - INFO - OUTBOUND CALL: To +33661329235
+2025-07-16 22:17:48,213 - outbound-caller - INFO - Default pathway found for agent: d5fc510b-7635-4715-9066-e522daa2336d
+2025-07-16 22:17:48,213 - outbound-caller - INFO - Default pathway found for agent: d5fc510b-7635-4715-9066-e522daa2336d
+2025-07-16 22:17:48,213 - outbound-caller - INFO - Agent ID from metadata: 11
+2025-07-16 22:17:48,213 - outbound-caller - INFO - Agent ID from metadata: 11
+2025-07-16 22:17:48,213 - outbound-caller - INFO - PAM Tier: core, Wait for Greeting: False, Interruption Threshold: 100ms
+2025-07-16 22:17:48,213 - outbound-caller - INFO - PAM Tier: core, Wait for Greeting: False, Interruption Threshold: 100ms
+2025-07-16 22:17:48,213 - outbound-caller - INFO - DEBUG: Full dial_info structure: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", 'initial_greeting': 'Hi this is Pam, how can I help ?', 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-16 22:17:48,213 - outbound-caller - INFO - DEBUG: Full dial_info structure: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", 'initial_greeting': 'Hi this is Pam, how can I help ?', 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-16 22:17:48,213 - outbound-caller - INFO - DEBUG: dial_info.get('dial_info'): {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}
+2025-07-16 22:17:48,213 - outbound-caller - INFO - DEBUG: dial_info.get('dial_info'): {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}
+2025-07-16 22:17:48,213 - outbound-caller - INFO - DEBUG: Extracted agent_caller_id_number: +33189311209
+2025-07-16 22:17:48,213 - outbound-caller - INFO - DEBUG: Extracted agent_caller_id_number: +33189311209
+2025-07-16 22:17:48,213 - outbound-caller - INFO - Agent Caller ID (agent_caller_id_number) found in job metadata: +33189311209
+2025-07-16 22:17:48,213 - outbound-caller - INFO - Agent Caller ID (agent_caller_id_number) found in job metadata: +33189311209
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Utilisation du SIP Trunk ID des métadonnées: ST_6CYLZwTLMCe2
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Utilisation du SIP Trunk ID des métadonnées: ST_6CYLZwTLMCe2
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Utilisation du prompt système formaté depuis les métadonnées.
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Utilisation du prompt système formaté depuis les métadonnées.
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Final dial info for agent: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", 'initial_greeting': 'Hi this is Pam, how can I help ?', 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Final dial info for agent: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-179', 'supabase_call_id': 179, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", 'initial_greeting': 'Hi this is Pam, how can I help ?', 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Agent will use name: Valued Customer
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Agent will use name: Valued Customer
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Dialing number: +33661329235
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Dialing number: +33661329235
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Configuration IA chargée depuis les métadonnées: {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}
+2025-07-16 22:17:48,214 - outbound-caller - INFO - Configuration IA chargée depuis les métadonnées: {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}
+2025-07-16 22:17:48,312 - outbound-caller - INFO - Plugin VAD Silero chargé.
+2025-07-16 22:17:48,312 - outbound-caller - INFO - Plugin VAD Silero chargé.
+2025-07-16 22:17:48,312 - outbound-caller - INFO - Plugin STT Deepgram chargé (lang: en, model: nova-2).
+2025-07-16 22:17:48,312 - outbound-caller - INFO - Plugin STT Deepgram chargé (lang: en, model: nova-2).
+2025-07-16 22:17:48,312 - outbound-caller - INFO - Plugin TTS Cartesia chargé (model: sonic-2, voice: f9836c6e-a0bd-460e-9d3c-f7299fa60f94).
+2025-07-16 22:17:48,312 - outbound-caller - INFO - Plugin TTS Cartesia chargé (model: sonic-2, voice: f9836c6e-a0bd-460e-9d3c-f7299fa60f94).
+2025-07-16 22:17:48,560 - outbound-caller - INFO - Plugin LLM OpenAI chargé (model: gpt-4o-mini).
+2025-07-16 22:17:48,560 - outbound-caller - INFO - Plugin LLM OpenAI chargé (model: gpt-4o-mini).
+2025-07-16 22:17:48,561 - outbound-caller - INFO - Creating PathwayAgent with pathway: d5fc510b-7635-4715-9066-e522daa2336d
+2025-07-16 22:17:48,561 - outbound-caller - INFO - Creating PathwayAgent with pathway: d5fc510b-7635-4715-9066-e522daa2336d
+2025-07-16 22:17:49,104 - pathway_agent - INFO - Creating PathwayAgent with 32 nodes, entry: conversation-1752584446694
+2025-07-16 22:17:49,106 - pathway_agent.PathwayAgent - INFO - PathwayAgent initialized with pathway: B2B Sales- Pathway
+2025-07-16 22:17:49,106 - outbound-caller - INFO - Successfully created PathwayAgent for pathway: d5fc510b-7635-4715-9066-e522daa2336d
+2025-07-16 22:17:49,106 - outbound-caller - INFO - Successfully created PathwayAgent for pathway: d5fc510b-7635-4715-9066-e522daa2336d
+2025-07-16 22:17:49,106 - outbound-caller - INFO - Instantiating AgentSession with dynamically loaded plugins.
+2025-07-16 22:17:49,106 - outbound-caller - INFO - Instantiating AgentSession with dynamically loaded plugins.
+2025-07-16 22:17:49,106 - outbound-caller - INFO - AgentSession created successfully with dynamic plugins.
+2025-07-16 22:17:49,106 - outbound-caller - INFO - AgentSession created successfully with dynamic plugins.
+2025-07-16 22:17:49,106 - outbound-caller - INFO - OUTBOUND CALL: Attempting SIP dial to +33661329235 via trunk ST_6CYLZwTLMCe2 pour Supabase ID: 179
+2025-07-16 22:17:49,106 - outbound-caller - INFO - OUTBOUND CALL: Attempting SIP dial to +33661329235 via trunk ST_6CYLZwTLMCe2 pour Supabase ID: 179
+2025-07-16 22:17:49,106 - outbound-caller - INFO - Préparation de l'en-tête SIP X-Client-State avec valeur (encodée): MTc5
+2025-07-16 22:17:49,106 - outbound-caller - INFO - Préparation de l'en-tête SIP X-Client-State avec valeur (encodée): MTc5
+2025-07-16 22:17:49,106 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-179 (Supabase ID: 179) avec payload: {'new_status': 'dialing', 'supabase_call_id': '179'} via backend: http://localhost:8000/calls/room/agent-call-179/status
+2025-07-16 22:17:49,106 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-179 (Supabase ID: 179) avec payload: {'new_status': 'dialing', 'supabase_call_id': '179'} via backend: http://localhost:8000/calls/room/agent-call-179/status
+2025-07-16 22:17:50,393 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-179 (Supabase ID: 179): {'message': 'Call status updated successfully', 'call': {'id': 179, 'created_at': '2025-07-16T20:17:43.199683+00:00', 'updated_at': '2025-07-16T20:17:50.425064+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'dialing', 'initiated_at': None, 'answered_at': None, 'ended_at': None, 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-179', 'pathway_execution_id': None, 'current_pathway_node_id': None, 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 1060, 'error_message': None, 'duration_seconds': None}}
+2025-07-16 22:17:50,393 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-179 (Supabase ID: 179): {'message': 'Call status updated successfully', 'call': {'id': 179, 'created_at': '2025-07-16T20:17:43.199683+00:00', 'updated_at': '2025-07-16T20:17:50.425064+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'dialing', 'initiated_at': None, 'answered_at': None, 'ended_at': None, 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-179', 'pathway_execution_id': None, 'current_pathway_node_id': None, 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 1060, 'error_message': None, 'duration_seconds': None}}
+2025-07-16 22:17:50,393 - outbound-caller - INFO - Appel à ctx.api.sip.create_sip_participant avec phoneNumber: +33661329235, trunk: ST_6CYLZwTLMCe2, from: +33189311209, metadata: {"supabase_call_id": "179"}
+2025-07-16 22:17:50,393 - outbound-caller - INFO - Appel à ctx.api.sip.create_sip_participant avec phoneNumber: +33661329235, trunk: ST_6CYLZwTLMCe2, from: +33189311209, metadata: {"supabase_call_id": "179"}
+2025-07-16 22:17:50,740 - outbound-caller - INFO - SIP call created for +33661329235. Waiting for SIP participant to join room.
+2025-07-16 22:17:50,740 - outbound-caller - INFO - SIP call created for +33661329235. Waiting for SIP participant to join room.
+2025-07-16 22:17:50,741 - outbound-caller - INFO - SIP participant 'agent_sip_participant_+33661329235' (PA_QKREwmbNCeg8) connected to room agent-call-179.
+2025-07-16 22:17:50,741 - outbound-caller - INFO - SIP participant 'agent_sip_participant_+33661329235' (PA_QKREwmbNCeg8) connected to room agent-call-179.
+2025-07-16 22:17:50,741 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-179 (Supabase ID: 179) avec payload: {'new_status': 'connected', 'supabase_call_id': '179'} via backend: http://localhost:8000/calls/room/agent-call-179/status
+2025-07-16 22:17:50,741 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-179 (Supabase ID: 179) avec payload: {'new_status': 'connected', 'supabase_call_id': '179'} via backend: http://localhost:8000/calls/room/agent-call-179/status
+2025-07-16 22:17:51,493 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-179 (Supabase ID: 179): {'message': 'Call status updated successfully', 'call': {'id': 179, 'created_at': '2025-07-16T20:17:43.199683+00:00', 'updated_at': '2025-07-16T20:17:51.524348+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'connected', 'initiated_at': None, 'answered_at': None, 'ended_at': None, 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-179', 'pathway_execution_id': None, 'current_pathway_node_id': None, 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 1060, 'error_message': None, 'duration_seconds': None}}
+2025-07-16 22:17:51,493 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-179 (Supabase ID: 179): {'message': 'Call status updated successfully', 'call': {'id': 179, 'created_at': '2025-07-16T20:17:43.199683+00:00', 'updated_at': '2025-07-16T20:17:51.524348+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'connected', 'initiated_at': None, 'answered_at': None, 'ended_at': None, 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-179', 'pathway_execution_id': None, 'current_pathway_node_id': None, 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 1060, 'error_message': None, 'duration_seconds': None}}
+2025-07-16 22:17:51,493 - outbound-caller - INFO - Call connected (OUTBOUND), participant joined. Starting agent session for supabase_call_id: 179
+2025-07-16 22:17:51,493 - outbound-caller - INFO - Call connected (OUTBOUND), participant joined. Starting agent session for supabase_call_id: 179
+2025-07-16 22:17:51,493 - outbound-caller - INFO - run_session_safely: AVANT appel à session.start() pour supabase_call_id: 179 (UTILISATION DE PathwayAgent - OUTBOUND CALL)
+2025-07-16 22:17:51,493 - outbound-caller - INFO - run_session_safely: AVANT appel à session.start() pour supabase_call_id: 179 (UTILISATION DE PathwayAgent - OUTBOUND CALL)
+2025-07-16 22:17:51,504 - outbound-caller - INFO - Auto-starting pathway execution: pathway_id=d5fc510b-7635-4715-9066-e522daa2336d, agent_id=11, call_id=179
+2025-07-16 22:17:51,504 - outbound-caller - INFO - Auto-starting pathway execution: pathway_id=d5fc510b-7635-4715-9066-e522daa2336d, agent_id=11, call_id=179
+2025-07-16 22:17:51,505 - agent_pathway_integration - INFO - Checking for default pathway for agent 11 and call 179
+2025-07-16 22:17:51,640 - agent_pathway_integration - INFO - Created pathway execution record: 67e338c3-ec9d-49c9-857c-35fbb0bab7ef
+2025-07-16 22:17:51,689 - agent_pathway_integration - INFO - Linked call 179 to pathway execution 67e338c3-ec9d-49c9-857c-35fbb0bab7ef
+2025-07-16 22:17:51,690 - agent_pathway_integration - INFO - \u2705 Started pathway execution 67e338c3-ec9d-49c9-857c-35fbb0bab7ef for call 179
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\Python312\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\job_proc_lazy_main.py", line 353, in thread_main
+    client.run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\proc_client.py", line 86, in run
+    loop.run_until_complete(self._task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  [Previous line repeated 11 more times]
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 1017, in run_session_safely
+    pathway_execution_id = await auto_start_pathway_for_new_call(
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\api\agent_pathway_integration.py", line 69, in auto_start_pathway_for_new_call
+    logger.info(f"\u2705 Started pathway execution {execution_id} for call {call_id}")
+Message: '\u2705 Started pathway execution 67e338c3-ec9d-49c9-857c-35fbb0bab7ef for call 179'
+Arguments: ()
+2025-07-16 22:17:51,706 - outbound-caller - INFO - Pathway execution started successfully: 67e338c3-ec9d-49c9-857c-35fbb0bab7ef
+2025-07-16 22:17:51,706 - outbound-caller - INFO - Pathway execution started successfully: 67e338c3-ec9d-49c9-857c-35fbb0bab7ef
+2025-07-16 22:17:51,746 - outbound-caller - INFO - run_session_safely: APRÈS appel à session.start() pour supabase_call_id: 179 (OUTBOUND CALL). La session devrait avoir démarré et exécuté la logique de l'agent.
+2025-07-16 22:17:51,746 - outbound-caller - INFO - run_session_safely: APRÈS appel à session.start() pour supabase_call_id: 179 (OUTBOUND CALL). La session devrait avoir démarré et exécuté la logique de l'agent.
+2025-07-16 22:17:51,747 - outbound-caller - INFO - Agent session task finished normally for outbound call supabase_call_id: 179.
+2025-07-16 22:17:51,747 - outbound-caller - INFO - Agent session task finished normally for outbound call supabase_call_id: 179.
+2025-07-16 22:17:51,747 - outbound-caller - INFO - Fin du job pour la room agent-call-179 (OUTBOUND call, Supabase ID: 179). Statut final de session: completed
+2025-07-16 22:17:51,747 - outbound-caller - INFO - Fin du job pour la room agent-call-179 (OUTBOUND call, Supabase ID: 179). Statut final de session: completed
+2025-07-16 22:17:51,748 - pathway_agent - INFO - Cleaning up PathwayAgent session
+2025-07-16 22:17:51,809 - pathway_agent - INFO - PathwayAgent session cleanup completed
+2025-07-16 22:17:51,810 - outbound-caller - INFO - PathwayAgent session cleanup completed for call 179
+2025-07-16 22:17:51,810 - outbound-caller - INFO - PathwayAgent session cleanup completed for call 179
+2025-07-16 22:17:51,810 - outbound-caller - WARNING - TELNYX_API_KEY ou call_control_id manquant pour récupérer la durée réelle d'appel.
+2025-07-16 22:17:51,810 - outbound-caller - WARNING - TELNYX_API_KEY ou call_control_id manquant pour récupérer la durée réelle d'appel.
+2025-07-16 22:17:51,811 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-179 (Supabase ID: 179) avec payload: {'new_status': 'completed', 'supabase_call_id': '179', 'call_duration_seconds': 1} via backend: http://localhost:8000/calls/room/agent-call-179/status
+2025-07-16 22:17:51,811 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-179 (Supabase ID: 179) avec payload: {'new_status': 'completed', 'supabase_call_id': '179', 'call_duration_seconds': 1} via backend: http://localhost:8000/calls/room/agent-call-179/status
+2025-07-16 22:17:52,620 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-179 (Supabase ID: 179): {'message': 'Call status updated successfully', 'call': {'id': 179, 'created_at': '2025-07-16T20:17:43.199683+00:00', 'updated_at': '2025-07-16T20:17:52.648044+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'completed', 'initiated_at': None, 'answered_at': None, 'ended_at': '2025-07-16T20:17:52.579258+00:00', 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-179', 'pathway_execution_id': '67e338c3-ec9d-49c9-857c-35fbb0bab7ef', 'current_pathway_node_id': 'conversation-1752584446694', 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 1060, 'error_message': None, 'duration_seconds': 1}}
+2025-07-16 22:17:52,620 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-179 (Supabase ID: 179): {'message': 'Call status updated successfully', 'call': {'id': 179, 'created_at': '2025-07-16T20:17:43.199683+00:00', 'updated_at': '2025-07-16T20:17:52.648044+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'completed', 'initiated_at': None, 'answered_at': None, 'ended_at': '2025-07-16T20:17:52.579258+00:00', 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-179', 'pathway_execution_id': '67e338c3-ec9d-49c9-857c-35fbb0bab7ef', 'current_pathway_node_id': 'conversation-1752584446694', 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 1060, 'error_message': None, 'duration_seconds': 1}}
+2025-07-16 22:17:52,621 - outbound-caller - INFO - Session task awaited and completed for supabase_call_id 179.
+2025-07-16 22:17:52,621 - outbound-caller - INFO - Session task awaited and completed for supabase_call_id 179.
+2025-07-16 22:17:52,621 - outbound-caller - INFO - Setting up to wait for participant 'agent_sip_participant_+33661329235' to disconnect as a final check...
+2025-07-16 22:17:52,621 - outbound-caller - INFO - Setting up to wait for participant 'agent_sip_participant_+33661329235' to disconnect as a final check...
+2025-07-16 22:17:52,622 - outbound-caller - INFO - Now waiting for participant 'agent_sip_participant_+33661329235' to disconnect (final check)...
+2025-07-16 22:17:52,622 - outbound-caller - INFO - Now waiting for participant 'agent_sip_participant_+33661329235' to disconnect (final check)...
+2025-07-16 22:17:57,595 - outbound-caller - WARNING - Timeout waiting for participant 'agent_sip_participant_+33661329235' to disconnect (final check). Session likely already handled by agent logic or session_task.
+2025-07-16 22:17:57,595 - outbound-caller - WARNING - Timeout waiting for participant 'agent_sip_participant_+33661329235' to disconnect (final check). Session likely already handled by agent logic or session_task.
+2025-07-16 22:17:57,595 - outbound-caller - INFO - Entrypoint for supabase_call_id 179 completed.
+2025-07-16 22:17:57,595 - outbound-caller - INFO - Entrypoint for supabase_call_id 179 completed.
+2025-07-16 22:18:02,001 - pathway_agent.PathwayAgent - INFO - PathwayAgent llm_node called - executing pathway logic
+2025-07-16 22:18:02,001 - pathway_agent.PathwayAgent - WARNING - Session not available in PathwayAgent, falling back to default LLM
+2025-07-16 22:18:09,467 - livekit.agents - INFO - closing agent session due to participant disconnect (disable via `RoomInputOptions.close_on_disconnect=False`)
+2025-07-16 22:18:52,728 - livekit.agents - INFO - draining worker
+2025-07-16 22:18:52,728 - livekit.agents - INFO - shutting down worker

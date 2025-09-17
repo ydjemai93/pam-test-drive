@@ -1,0 +1,62 @@
+[AGENT] File logging enabled: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\logs\agent_486.log
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+{"message": "starting worker", "level": "INFO", "name": "livekit.agents", "version": "1.1.6", "rtc-version": "1.0.11", "timestamp": "2025-08-22T09:06:09.428874+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 14328, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 36312, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 5612, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 4704, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 22740, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 31856, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 27248, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 37204, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 37504, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 37484, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 10212, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 21864, "timestamp": "2025-08-22T09:06:09.434064+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 14328, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 5612, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 36312, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 22740, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 31856, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 4704, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 27248, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 37204, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 10212, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 37504, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 21864, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 37484, "elapsed_time": 0.01, "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "see tracing information at http://localhost:62381/debug", "level": "INFO", "name": "livekit.agents", "timestamp": "2025-08-22T09:06:09.449311+00:00"}
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_cu9ixvZBD64H", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "Germany", "protocol": 16, "timestamp": "2025-08-22T09:06:09.560316+00:00"}
+{"message": "received job request", "level": "INFO", "name": "livekit.agents", "job_id": "AJ_5WR5Vs6UA2D6", "dispatch_id": "", "room_name": "agent-call-487", "agent_name": "outbound-caller", "resuming": false, "timestamp": "2025-08-22T09:08:32.683089+00:00"}
+{"message": "📞 Outbound Agent entrypoint called", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:32.699117+00:00"}
+{"message": "Starting entrypoint for supabase_call_id: 487", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:32.699117+00:00"}
+{"message": "📋 Extracted dial_info: {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-487', 'supabase_call_id': 487, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:32.699117+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 35288, "timestamp": "2025-08-22T09:08:32.782020+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 35288, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:08:32.782020+00:00"}
+{"message": "✅ Connected to LiveKit room", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.076311+00:00"}
+{"message": "Configuring AI models from job metadata...", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.077327+00:00"}
+{"message": "✅ AI Models configured successfully", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.327642+00:00"}
+{"message": "Checking for default pathway for agent 11 and call 487", "level": "INFO", "name": "agent_pathway_integration", "timestamp": "2025-08-22T09:08:33.328644+00:00"}
+{"message": "Pathway d5fc510b-7635-4715-9066-e522daa2336d is not active (status: draft)", "level": "INFO", "name": "agent_pathway_integration", "timestamp": "2025-08-22T09:08:33.626483+00:00"}
+{"message": "✅ Auto-started pathway execution: None", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.627485+00:00"}
+{"message": "Placeholder: Fetching pathway config for call_id 487 from backend...", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.627485+00:00"}
+{"message": "🔍 Fetching call details for call_id: 487", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.627485+00:00"}
+{"message": "📞 Call 487 found with pathway_execution_id: None", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.674150+00:00"}
+{"message": "ℹ️ Call 487 has no pathway execution - returning basic call data", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.674150+00:00"}
+{"message": "No pathway config found for call_id 487 in Supabase.", "level": "WARNING", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.674150+00:00"}
+{"message": "No pathway configuration found for call_id 487. Using basic agent.", "level": "ERROR", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.674150+00:00"}
+{"message": "Creating SIP participant to initiate outbound call...", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.675661+00:00"}
+{"message": "Dialing +33661329235 using SIP trunk ST_6CYLZwTLMCe2", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:33.675661+00:00"}
+{"message": "SIP call initiated to +33661329235. Waiting for participant to join...", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T09:08:36.163975+00:00"}
+{"message": "closing agent session due to participant disconnect (disable via `RoomInputOptions.close_on_disconnect=False`)", "level": "INFO", "name": "livekit.agents", "participant": "phone_user", "reason": "CLIENT_INITIATED", "timestamp": "2025-08-22T09:09:13.888530+00:00"}
+{"message": "draining worker", "level": "INFO", "name": "livekit.agents", "id": "AW_cu9ixvZBD64H", "timeout": 1800, "timestamp": "2025-08-22T09:12:59.567281+00:00"}
+{"message": "shutting down worker", "level": "INFO", "name": "livekit.agents", "id": "AW_cu9ixvZBD64H", "timestamp": "2025-08-22T09:12:59.568282+00:00"}

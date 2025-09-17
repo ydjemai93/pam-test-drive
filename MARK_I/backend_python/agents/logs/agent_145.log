@@ -1,0 +1,29 @@
+{"message": "starting worker", "level": "INFO", "name": "livekit.agents", "version": "1.1.6", "rtc-version": "1.0.11", "timestamp": "2025-07-16T07:58:28.096602+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 27560, "timestamp": "2025-07-16T07:58:28.168717+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 30988, "timestamp": "2025-07-16T07:58:28.170250+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 25932, "timestamp": "2025-07-16T07:58:28.172302+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 39120, "timestamp": "2025-07-16T07:58:28.176290+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 36924, "timestamp": "2025-07-16T07:58:28.177815+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 12100, "timestamp": "2025-07-16T07:58:28.178839+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 11908, "timestamp": "2025-07-16T07:58:28.179848+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 30292, "timestamp": "2025-07-16T07:58:28.180856+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 22096, "timestamp": "2025-07-16T07:58:28.181847+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 12220, "timestamp": "2025-07-16T07:58:28.183457+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 37428, "timestamp": "2025-07-16T07:58:28.184490+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 33716, "timestamp": "2025-07-16T07:58:28.186494+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 27560, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.248119+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 30988, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.250163+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 25932, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.252151+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 39120, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.253157+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 36924, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.255156+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 12100, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.257156+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 11908, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.258152+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 22096, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.259151+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 12220, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.260637+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 30292, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.261157+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 37428, "elapsed_time": 0.08, "timestamp": "2025-07-16T07:58:28.262149+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 33716, "elapsed_time": 0.07, "timestamp": "2025-07-16T07:58:28.263175+00:00"}
+{"message": "see tracing information at http://localhost:59879/debug", "level": "INFO", "name": "livekit.agents", "timestamp": "2025-07-16T07:58:28.266176+00:00"}
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_V7w2nojVmXiw", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "Germany", "protocol": 16, "timestamp": "2025-07-16T07:58:28.518352+00:00"}
+{"message": "draining worker", "level": "INFO", "name": "livekit.agents", "id": "AW_V7w2nojVmXiw", "timeout": 1800, "timestamp": "2025-07-16T07:59:45.765841+00:00"}
+{"message": "shutting down worker", "level": "INFO", "name": "livekit.agents", "id": "AW_V7w2nojVmXiw", "timestamp": "2025-07-16T07:59:45.766702+00:00"}

@@ -1,0 +1,44 @@
+2025-07-21 22:21:09,723 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-07-21 22:21:09,723 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-07-21 22:21:09,723 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-07-21 22:21:09,723 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-07-21 22:21:09,723 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-07-21 22:21:09,734 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-07-21 22:21:09,734 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-07-21 22:21:09,734 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-257
+2025-07-21 22:21:09,734 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-257", "supabase_call_id": 257, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": null, "initial_greeting": null, "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-21 22:21:09,734 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-07-21 22:21:09,734 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+App actions not available: attempted relative import with no known parent package
+API modules not available: No module named 'api'
+2025-07-21 22:21:13,304 - outbound-caller - INFO - Pathway integration loaded successfully
+2025-07-21 22:21:13,306 - root - INFO - Starting LiveKit Worker 'outbound-caller' on port 64428
+2025-07-21 22:21:13,321 - livekit.agents - INFO - starting worker
+2025-07-21 22:21:13,358 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,360 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,361 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,361 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,361 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,362 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,363 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,364 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,364 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,365 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,365 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,366 - livekit.agents - INFO - initializing job runner
+2025-07-21 22:21:13,414 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,417 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,418 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,418 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,419 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,420 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,420 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,420 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,421 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,421 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,421 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,422 - livekit.agents - INFO - job runner initialized
+2025-07-21 22:21:13,423 - livekit.agents - INFO - see tracing information at http://localhost:64428/debug
+2025-07-21 22:21:13,567 - livekit.agents - INFO - registered worker
+2025-07-21 22:25:58,090 - livekit.agents - INFO - draining worker
+2025-07-21 22:25:58,092 - livekit.agents - INFO - shutting down worker

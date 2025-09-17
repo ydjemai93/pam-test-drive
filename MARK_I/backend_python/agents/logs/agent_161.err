@@ -1,0 +1,522 @@
+2025-07-16 14:24:17,509 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-07-16 14:24:17,510 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-07-16 14:24:17,510 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-07-16 14:24:17,511 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-07-16 14:24:17,511 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-07-16 14:24:17,524 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-07-16 14:24:17,524 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-07-16 14:24:17,524 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-161
+2025-07-16 14:24:17,524 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-161", "supabase_call_id": 161, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", "initial_greeting": "Hi this is Pam, how can I help ?", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-16 14:24:17,524 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-07-16 14:24:17,524 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-07-16 14:24:21,143 - outbound-caller - WARNING - Pathway integration not available: attempted relative import with no known parent package
+2025-07-16 14:24:21,160 - root - INFO - Starting LiveKit Worker 'outbound-caller' on port 52078
+2025-07-16 14:24:21,167 - livekit.agents - INFO - starting worker
+2025-07-16 14:24:21,210 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,212 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,213 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,216 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,216 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,217 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,217 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,218 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,218 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,219 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,219 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,219 - livekit.agents - INFO - initializing job runner
+2025-07-16 14:24:21,249 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,251 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,251 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,252 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,252 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,253 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,254 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,255 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,255 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,256 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,256 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,257 - livekit.agents - INFO - job runner initialized
+2025-07-16 14:24:21,258 - livekit.agents - INFO - see tracing information at http://localhost:52078/debug
+2025-07-16 14:24:21,482 - livekit.agents - INFO - registered worker
+2025-07-16 14:36:51,831 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:36:57,102 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:39:47,528 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:39:52,540 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:40:10,444 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:40:12,945 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:40:51,454 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:40:56,475 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:42:02,186 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:42:04,706 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:42:07,202 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:42:09,701 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:42:12,190 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:42:14,704 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:42:24,753 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:42:29,743 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:45:38,812 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:45:41,331 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:46:41,643 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:46:44,159 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:51:30,096 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:51:32,594 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:52:25,315 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:52:27,853 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:52:30,364 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:52:37,940 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:53:03,120 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:53:08,147 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:54:08,349 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:54:15,890 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 14:55:51,103 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 14:59:12,865 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:00:10,477 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:00:15,488 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:01:43,449 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:01:45,925 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:01:59,055 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:01:59,118 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:01:59,135 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:01:59,219 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:02:00,992 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:02:06,002 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:13:19,303 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:13:29,397 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:13:31,886 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:13:34,395 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:13:36,907 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:13:39,417 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:15:12,451 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:15:17,456 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:21:10,930 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:21:15,953 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:22:33,628 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:22:36,128 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:24:06,376 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:24:08,876 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:24:21,487 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:24:24,006 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:24:54,063 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:24:59,063 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:39:39,884 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:39:42,381 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:40:20,024 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:40:22,555 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:41:13,210 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:41:15,723 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:42:07,783 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,784 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,787 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,787 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,789 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,789 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,790 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,790 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,790 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:07,791 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,836 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,836 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,836 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,837 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,840 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,840 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,840 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,841 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,841 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,841 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,841 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:25,842 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,470 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,472 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,475 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,476 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,478 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,480 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,482 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,484 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,553 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,615 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:42:33,661 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:43:14,449 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:43:14,451 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:43:14,452 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:43:14,453 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:43:14,454 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:43:14,456 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:44:53,625 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:44:53,706 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:44:54,325 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:44:54,387 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:44:54,389 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:44:54,473 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:44:54,709 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:44:54,722 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 15:45:13,995 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:45:16,547 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:45:21,652 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:45:24,197 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:52:00,512 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:52:03,002 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:54:11,417 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:54:13,935 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:59:08,400 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:59:10,923 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 15:59:23,431 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 15:59:25,938 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 16:01:09,804 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 16:02:11,683 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 16:02:15,753 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 692, in _connection_task
+    await self._run_ws(ws)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 773, in _run_ws
+    await asyncio.gather(*tasks)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 745, in _recv_task
+    raise Exception("worker connection closed unexpectedly")
+Exception: worker connection closed unexpectedly
+2025-07-16 16:02:16,189 - livekit.agents - WARNING - failed to connect to livekit, retrying in 2s
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 653, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host pamtestdrive-euxn3osq.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-07-16 16:02:18,265 - livekit.agents - WARNING - failed to connect to livekit, retrying in 4s
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 653, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host pamtestdrive-euxn3osq.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-07-16 16:02:22,305 - livekit.agents - WARNING - failed to connect to livekit, retrying in 6s
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 653, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host pamtestdrive-euxn3osq.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-07-16 16:02:28,382 - livekit.agents - WARNING - failed to connect to livekit, retrying in 8s
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 653, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host pamtestdrive-euxn3osq.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-07-16 16:14:44,157 - livekit.agents - WARNING - failed to connect to livekit, retrying in 10s
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 653, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host pamtestdrive-euxn3osq.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-07-16 16:46:35,602 - livekit.agents - WARNING - failed to connect to livekit, retrying in 10s
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 653, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host pamtestdrive-euxn3osq.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-07-16 16:46:58,000 - livekit.agents - WARNING - failed to connect to livekit, retrying in 10s
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\worker.py", line 653, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host pamtestdrive-euxn3osq.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-07-16 16:47:08,169 - livekit.agents - INFO - registered worker
+2025-07-16 16:47:51,120 - livekit.agents - INFO - draining worker
+2025-07-16 16:47:51,122 - livekit.agents - INFO - shutting down worker

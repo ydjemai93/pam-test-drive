@@ -1,0 +1,29 @@
+2025-08-22 11:06:07,785 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-08-22 11:06:07,785 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-08-22 11:06:07,785 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-08-22 11:06:07,785 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-08-22 11:06:07,786 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-08-22 11:06:07,790 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-08-22 11:06:07,790 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-08-22 11:06:07,790 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-486
+2025-08-22 11:06:07,790 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-486", "supabase_call_id": 486, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": "test", "initial_greeting": "test", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-08-22 11:06:07,790 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-08-22 11:06:07,790 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-08-22 11:06:08,215 - outbound-caller - INFO - ✅ Supabase client imported successfully
+2025-08-22 11:06:09,418 - outbound-caller - INFO - Pathway integration loaded successfully
+2025-08-22 11:08:32,699 - outbound-caller - INFO - 📞 Outbound Agent entrypoint called
+2025-08-22 11:08:32,699 - outbound-caller - INFO - Starting entrypoint for supabase_call_id: 487
+2025-08-22 11:08:32,699 - outbound-caller - INFO - 📋 Extracted dial_info: {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-487', 'supabase_call_id': 487, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}
+2025-08-22 11:08:33,076 - outbound-caller - INFO - ✅ Connected to LiveKit room
+2025-08-22 11:08:33,077 - outbound-caller - INFO - Configuring AI models from job metadata...
+2025-08-22 11:08:33,327 - outbound-caller - INFO - ✅ AI Models configured successfully
+2025-08-22 11:08:33,627 - outbound-caller - INFO - ✅ Auto-started pathway execution: None
+2025-08-22 11:08:33,627 - outbound-caller - INFO - Placeholder: Fetching pathway config for call_id 487 from backend...
+2025-08-22 11:08:33,627 - outbound-caller - INFO - 🔍 Fetching call details for call_id: 487
+2025-08-22 11:08:33,674 - outbound-caller - INFO - 📞 Call 487 found with pathway_execution_id: None
+2025-08-22 11:08:33,674 - outbound-caller - INFO - ℹ️ Call 487 has no pathway execution - returning basic call data
+2025-08-22 11:08:33,674 - outbound-caller - WARNING - No pathway config found for call_id 487 in Supabase.
+2025-08-22 11:08:33,674 - outbound-caller - ERROR - No pathway configuration found for call_id 487. Using basic agent.
+2025-08-22 11:08:33,675 - outbound-caller - INFO - Creating SIP participant to initiate outbound call...
+2025-08-22 11:08:33,675 - outbound-caller - INFO - Dialing +33661329235 using SIP trunk ST_6CYLZwTLMCe2
+2025-08-22 11:08:36,163 - outbound-caller - INFO - SIP call initiated to +33661329235. Waiting for participant to join...

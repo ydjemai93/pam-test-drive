@@ -1,0 +1,244 @@
+2025-07-27 22:10:46,125 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-07-27 22:10:46,128 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-07-27 22:10:46,128 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-07-27 22:10:46,128 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-07-27 22:10:46,129 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-07-27 22:10:46,141 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-07-27 22:10:46,141 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-07-27 22:10:46,141 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-376
+2025-07-27 22:10:46,142 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-376", "supabase_call_id": 376, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": null, "initial_greeting": null, "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-27 22:10:46,142 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-07-27 22:10:46,142 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-07-27 22:10:47,826 - outbound-caller - INFO - \u2705 Supabase client imported successfully
+2025-07-27 22:10:53,552 - outbound-caller - INFO - Pathway integration loaded successfully
+2025-07-27 22:10:53,993 - outbound-caller - INFO - Starting entrypoint for supabase_call_id: 376
+2025-07-27 22:10:54,671 - outbound-caller - INFO - \u2705 Connected to LiveKit room
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\Python312\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\job_proc_lazy_main.py", line 353, in thread_main
+    client.run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\proc_client.py", line 86, in run
+    loop.run_until_complete(self._task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  [Previous line repeated 11 more times]
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 604, in entrypoint
+    logger.info("\u2705 Connected to LiveKit room")
+Message: '\u2705 Connected to LiveKit room'
+Arguments: ()
+2025-07-27 22:10:54,702 - outbound-caller - ERROR - \u274c Error in auto-start pathway: auto_start_pathway_for_new_call() missing 1 required positional argument: 'agent_id'
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 614, in entrypoint
+    execution_id = await auto_start_pathway_for_new_call(call_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: auto_start_pathway_for_new_call() missing 1 required positional argument: 'agent_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\Python312\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\job_proc_lazy_main.py", line 353, in thread_main
+    client.run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\proc_client.py", line 86, in run
+    loop.run_until_complete(self._task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  [Previous line repeated 11 more times]
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 621, in entrypoint
+    logger.error(f"\u274c Error in auto-start pathway: {e}")
+Message: "\u274c Error in auto-start pathway: auto_start_pathway_for_new_call() missing 1 required positional argument: 'agent_id'"
+Arguments: ()
+2025-07-27 22:10:54,713 - outbound-caller - INFO - Placeholder: Fetching pathway config for call_id 376 from backend...
+2025-07-27 22:10:54,713 - outbound-caller - INFO - \U0001f50d Fetching call details for call_id: 376
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\Python312\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\job_proc_lazy_main.py", line 353, in thread_main
+    client.run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\proc_client.py", line 86, in run
+    loop.run_until_complete(self._task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  [Previous line repeated 11 more times]
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 625, in entrypoint
+    pathway_config, pathway_execution_id = await get_pathway_for_call(call_id)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 734, in get_pathway_for_call
+    call_details = await get_call_details_from_supabase(supabase_service_client, call_id)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 759, in get_call_details_from_supabase
+    logger.info(f"\U0001f50d Fetching call details for call_id: {call_id}")
+Message: '\U0001f50d Fetching call details for call_id: 376'
+Arguments: ()
+2025-07-27 22:10:56,413 - outbound-caller - INFO - \U0001f4de Call 376 found with pathway_execution_id: None
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4de' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\Python312\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\job_proc_lazy_main.py", line 353, in thread_main
+    client.run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\proc_client.py", line 86, in run
+    loop.run_until_complete(self._task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  [Previous line repeated 11 more times]
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 625, in entrypoint
+    pathway_config, pathway_execution_id = await get_pathway_for_call(call_id)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 734, in get_pathway_for_call
+    call_details = await get_call_details_from_supabase(supabase_service_client, call_id)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 773, in get_call_details_from_supabase
+    logger.info(f"\U0001f4de Call {call_id} found with pathway_execution_id: {pathway_execution_id}")
+Message: '\U0001f4de Call 376 found with pathway_execution_id: None'
+Arguments: ()
+2025-07-27 22:10:56,419 - outbound-caller - INFO - \u2139\ufe0f Call 376 has no pathway execution - returning basic call data
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 13-14: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\Python312\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\job_proc_lazy_main.py", line 353, in thread_main
+    client.run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\proc_client.py", line 86, in run
+    loop.run_until_complete(self._task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  [Previous line repeated 11 more times]
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 625, in entrypoint
+    pathway_config, pathway_execution_id = await get_pathway_for_call(call_id)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 734, in get_pathway_for_call
+    call_details = await get_call_details_from_supabase(supabase_service_client, call_id)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 777, in get_call_details_from_supabase
+    logger.info(f"\u2139\ufe0f Call {call_id} has no pathway execution - returning basic call data")
+Message: '\u2139\ufe0f Call 376 has no pathway execution - returning basic call data'
+Arguments: ()
+2025-07-27 22:10:56,421 - outbound-caller - WARNING - No pathway config found for call_id 376 in Supabase.
+2025-07-27 22:10:56,421 - outbound-caller - ERROR - No pathway configuration found for call_id 376. Aborting.
+2025-07-27 22:10:56,421 - outbound-caller - ERROR - No pathway configuration found for call_id 376. Aborting.
+2025-07-27 22:12:02,523 - livekit.agents - WARNING - exiting forcefully

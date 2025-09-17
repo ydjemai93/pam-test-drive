@@ -1,0 +1,98 @@
+2025-09-04 11:02:19 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-09-04 11:02:19 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-09-04 11:02:19 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-09-04 11:02:19 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-09-04 11:02:19 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-09-04 11:02:19 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-09-04 11:02:19 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-09-04 11:02:19 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-09-04 11:02:19 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-09-04 11:02:19 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-09-04 11:02:19 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-09-04 11:02:19 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-09-04 11:02:19 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-09-04 11:02:19 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-09-04 11:02:19 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-575
+2025-09-04 11:02:19 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-575
+2025-09-04 11:02:19 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-575", "supabase_call_id": 575, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_5XGQsydT4wV4", "agent_caller_id_number": "+12067364320"}, "system_prompt": "test", "initial_greeting": "test", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "031851ba-cc34-422d-bfdb-cdbb7f4651ee"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-09-04 11:02:19 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-575", "supabase_call_id": 575, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_5XGQsydT4wV4", "agent_caller_id_number": "+12067364320"}, "system_prompt": "test", "initial_greeting": "test", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "031851ba-cc34-422d-bfdb-cdbb7f4651ee"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-09-04 11:02:19 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-09-04 11:02:19 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-09-04 11:02:19 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-09-04 11:02:19 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-09-04 11:02:19 - db_client - INFO - Supabase service client initialized successfully.
+2025-09-04 11:02:19 - outbound-caller - INFO - ✅ Supabase client imported successfully
+2025-09-04 11:02:19 - outbound-caller - INFO - ✅ Supabase client imported successfully
+2025-09-04 11:02:20 - pathway_global_context - INFO - ✅ crypto_utils imported successfully
+2025-09-04 11:02:20 - pathway_global_context - INFO - ✅ crypto_utils imported successfully
+2025-09-04 11:02:21 - api.db_client - INFO - Supabase service client initialized successfully.
+2025-09-04 11:02:21 - workflow-agent - INFO - [SUCCESS] App actions module imported successfully
+2025-09-04 11:02:21 - workflow-agent - INFO - [SUCCESS] App actions module imported successfully
+2025-09-04 11:02:21 - agent_pathway_integration - INFO - Agent Pathway Integration module loaded successfully
+2025-09-04 11:02:21 - outbound-caller - INFO - Pathway integration loaded successfully
+2025-09-04 11:02:21 - outbound-caller - INFO - Pathway integration loaded successfully
+2025-09-04 11:02:21 - root - INFO - Starting LiveKit Worker 'outbound-caller' on port 58318
+2025-09-04 11:02:21 - livekit.agents - INFO - starting worker
+2025-09-04 11:02:21 - livekit.agents - INFO - starting worker
+2025-09-04 11:02:21 - livekit.agents - INFO - initializing job runner
+2025-09-04 11:02:21 - livekit.agents - INFO - initializing job runner
+2025-09-04 11:02:21 - livekit.agents - INFO - initializing job runner
+2025-09-04 11:02:21 - livekit.agents - INFO - initializing job runner
+2025-09-04 11:02:21 - livekit.agents - INFO - initializing job runner
+2025-09-04 11:02:21 - livekit.agents - INFO - initializing job runner
+2025-09-04 11:02:21 - livekit.agents - INFO - initializing job runner
+2025-09-04 11:02:21 - livekit.agents - INFO - initializing job runner
+2025-09-04 11:02:21 - livekit.agents - INFO - job runner initialized
+2025-09-04 11:02:21 - livekit.agents - INFO - job runner initialized
+2025-09-04 11:02:21 - livekit.agents - INFO - job runner initialized
+2025-09-04 11:02:21 - livekit.agents - INFO - job runner initialized
+2025-09-04 11:02:21 - livekit.agents - INFO - job runner initialized
+2025-09-04 11:02:21 - livekit.agents - INFO - job runner initialized
+2025-09-04 11:02:21 - livekit.agents - INFO - job runner initialized
+2025-09-04 11:02:21 - livekit.agents - INFO - job runner initialized
+2025-09-04 11:02:21 - livekit.agents - INFO - registered worker
+2025-09-04 11:02:21 - livekit.agents - INFO - registered worker
+2025-09-04 11:07:39 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:07:39 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:07:42 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:07:42 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:31:59 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:31:59 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:32:02 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:32:02 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:49:33 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:49:33 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:49:35 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:49:35 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:52:28 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:52:28 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:52:31 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:52:31 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:58:52 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:58:52 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 11:58:54 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 11:58:54 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:01:02 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:01:02 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:01:05 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:01:05 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:13:55 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:13:55 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:13:58 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:13:58 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:15:00 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:15:00 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:15:05 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:15:05 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:18:11 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:18:11 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:18:14 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:18:14 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:19:14 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:19:14 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-09-04 12:19:16 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:19:16 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-09-04 12:25:41 - livekit.agents - INFO - draining worker
+2025-09-04 12:25:41 - livekit.agents - INFO - draining worker
+2025-09-04 12:25:41 - livekit.agents - INFO - shutting down worker
+2025-09-04 12:25:41 - livekit.agents - INFO - shutting down worker

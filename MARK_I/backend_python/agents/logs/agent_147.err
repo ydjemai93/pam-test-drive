@@ -1,0 +1,104 @@
+2025-07-16 10:09:17,262 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-07-16 10:09:17,266 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-07-16 10:09:17,267 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-07-16 10:09:17,267 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-07-16 10:09:17,267 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-07-16 10:09:17,367 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-07-16 10:09:17,368 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-07-16 10:09:17,368 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-147
+2025-07-16 10:09:17,369 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-147", "supabase_call_id": 147, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_pYivozcRKCMc", "agent_caller_id_number": "+12027713289"}, "system_prompt": "You're an AI sales assistant called Jen. Your Goal is to sell me paper.", "initial_greeting": "Hi this is Pam, how can I help ?", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-16 10:09:17,371 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-07-16 10:09:17,373 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-07-16 10:10:46,286 - outbound-caller - WARNING - Pathway integration not available: attempted relative import with no known parent package
+2025-07-16 10:10:46,325 - root - INFO - Starting LiveKit Worker 'outbound-caller' on port 60964
+2025-07-16 10:10:46,366 - livekit.agents - INFO - starting worker
+2025-07-16 10:10:47,284 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,288 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,289 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,292 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,293 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,294 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,295 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,297 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,299 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,301 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,303 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,304 - livekit.agents - INFO - initializing job runner
+2025-07-16 10:10:47,446 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,449 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,451 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,454 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,455 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,456 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,458 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,460 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,461 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,462 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,462 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,463 - livekit.agents - INFO - job runner initialized
+2025-07-16 10:10:47,577 - livekit.agents - INFO - see tracing information at http://localhost:60964/debug
+2025-07-16 10:10:48,804 - livekit.agents - INFO - registered worker
+2025-07-16 10:10:48,805 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:11:24,414 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:11:32,095 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:11:37,120 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:11:42,406 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:11:46,796 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:11:46,798 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:11:46,799 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:11:46,801 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:11:46,805 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:11:47,413 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:12:01,527 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:12:09,365 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:12:13,532 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:13,534 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:13,535 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:13,626 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:19,073 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.95 seconds
+2025-07-16 10:12:19,076 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.95 seconds
+2025-07-16 10:12:19,077 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.95 seconds
+2025-07-16 10:12:19,078 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.95 seconds
+2025-07-16 10:12:19,081 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.95 seconds
+2025-07-16 10:12:19,082 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.95 seconds
+2025-07-16 10:12:19,082 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.95 seconds
+2025-07-16 10:12:19,084 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.97 seconds
+2025-07-16 10:12:19,086 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.97 seconds
+2025-07-16 10:12:19,086 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.97 seconds
+2025-07-16 10:12:19,086 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.97 seconds
+2025-07-16 10:12:19,089 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.97 seconds
+2025-07-16 10:12:19,504 - livekit.agents - WARNING - Running <Task pending name='Task-103' coro=<ThreadJobExecutor._ping_task() running at C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 3.97 seconds
+2025-07-16 10:12:35,178 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:12:36,062 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:36,065 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:36,071 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:36,072 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:36,077 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:36,078 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:36,081 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:36,105 - livekit.agents - WARNING - job executor is unresponsive
+2025-07-16 10:12:37,682 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:12:43,207 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:12:45,772 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:12:50,997 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:12:53,545 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:13:09,662 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:14:05,112 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:14:10,095 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:14:17,624 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:14:20,118 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:14:22,619 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:14:30,151 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:14:45,184 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:15:20,338 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:15:27,878 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:17:31,166 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:17:33,664 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:20:25,262 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:20:27,760 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:21:28,229 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:21:33,250 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:21:40,826 - livekit.agents - INFO - worker is at full capacity, marking as unavailable
+2025-07-16 10:21:43,343 - livekit.agents - INFO - worker is below capacity, marking as available
+2025-07-16 10:23:17,015 - livekit.agents - INFO - draining worker
+2025-07-16 10:23:17,020 - livekit.agents - INFO - shutting down worker

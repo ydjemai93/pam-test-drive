@@ -1,0 +1,46 @@
+[LOGGING] Applying ultimate PowerShell logging fixes...
+[LOGGING] Started persistent logging monitor
+[LOGGING] Ultimate PowerShell logging fix completed!
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+[LOGGING] Re-applying PowerShell logging fix after LiveKit...
+[LOGGING] PowerShell logging fix re-applied!
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+{"message": "starting worker", "level": "INFO", "name": "livekit.agents", "version": "1.2.6", "rtc-version": "1.0.12", "timestamp": "2025-08-26T15:17:55.499776+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 27128, "timestamp": "2025-08-26T15:17:55.556687+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 39976, "timestamp": "2025-08-26T15:17:55.589332+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 4896, "timestamp": "2025-08-26T15:17:55.597443+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 28860, "timestamp": "2025-08-26T15:17:55.605786+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 27128, "elapsed_time": 0.05, "timestamp": "2025-08-26T15:17:55.640366+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 39976, "elapsed_time": 0.06, "timestamp": "2025-08-26T15:17:55.653576+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 4896, "elapsed_time": 0.06, "timestamp": "2025-08-26T15:17:55.660123+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 28860, "elapsed_time": 0.06, "timestamp": "2025-08-26T15:17:55.670246+00:00"}
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_FCLDTEw9nKLz", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "Germany", "protocol": 16, "timestamp": "2025-08-26T15:17:55.987191+00:00"}
+{"message": "received job request", "level": "INFO", "name": "livekit.agents", "job_id": "AJ_KJ7uiFehp3ff", "dispatch_id": "", "room_name": "agent-call-547", "agent_name": "outbound-caller", "resuming": false, "timestamp": "2025-08-26T15:18:59.543644+00:00"}
+🚀 ENTRYPOINT CALLED - OUTBOUND AGENT STARTING
+{"message": "📞 Outbound Agent entrypoint called", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-26T15:18:59.596482+00:00"}
+📋 Starting entrypoint for supabase_call_id: 547
+{"message": "Starting entrypoint for supabase_call_id: 547", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-26T15:18:59.603651+00:00"}
+{"message": "📋 Extracted dial_info: {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-547', 'supabase_call_id': 547, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-26T15:18:59.608297+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 46600, "timestamp": "2025-08-26T15:18:59.641707+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 46600, "elapsed_time": 0.0, "timestamp": "2025-08-26T15:18:59.647717+00:00"}
+{"message": "✅ Connected to LiveKit room", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-26T15:19:00.234483+00:00"}
+[LOGGING] Re-applying PowerShell logging fix after LiveKit...
+[LOGGING] PowerShell logging fix re-applied!
+📞 Creating SIP participant to initiate outbound call...
+📱 Phone: +33661329235, Trunk: ST_6CYLZwTLMCe2
+☎️ Dialing +33661329235 using SIP trunk ST_6CYLZwTLMCe2
+📞 SIP call initiated to +33661329235. Waiting for participant to join...
+[LOGGING] Re-applying PowerShell logging fix after LiveKit...
+[LOGGING] PowerShell logging fix re-applied!
+🎬 STARTING LIVEKIT SESSION
+   Agent: <class 'pathway_global_context.PathwayNodeAgent'>
+   Room: agent-call-547
+🏁 SESSION COMPLETED

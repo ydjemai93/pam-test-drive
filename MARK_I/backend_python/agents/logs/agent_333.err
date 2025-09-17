@@ -1,0 +1,179 @@
+2025-07-24 18:30:12,565 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-07-24 18:30:12,565 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-07-24 18:30:12,565 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-07-24 18:30:12,565 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-07-24 18:30:12,565 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-07-24 18:30:12,565 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-07-24 18:30:12,565 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-07-24 18:30:12,565 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-333
+2025-07-24 18:30:12,565 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-333", "supabase_call_id": 333, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": null, "initial_greeting": null, "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-24 18:30:12,565 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-07-24 18:30:12,565 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-07-24 18:30:17,003 - outbound-caller - INFO - Pathway integration loaded successfully
+2025-07-24 18:30:18,345 - outbound-caller - INFO - Entrée dans la fonction entrypoint pour le job AJ_eDYwSn8PFwVi
+2025-07-24 18:30:19,334 - outbound-caller - INFO - Connexion établie à la room agent-call-333
+2025-07-24 18:30:19,335 - outbound-caller - INFO - Métadonnées brutes du job: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-333", "supabase_call_id": 333, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "auth_token": null, "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": null, "initial_greeting": null, "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-24 18:30:19,335 - outbound-caller - INFO - Métadonnées parsées: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-333', 'supabase_call_id': 333, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': None, 'initial_greeting': None, 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-24 18:30:19,335 - outbound-caller - INFO - supabase_call_id extrait des métadonnées: 333
+2025-07-24 18:30:19,336 - outbound-caller - INFO - Métadonnées du job: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-333", "supabase_call_id": 333, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "auth_token": null, "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": null, "initial_greeting": null, "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-24 18:30:19,336 - outbound-caller - INFO - dial_info parsed from metadata: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-333', 'supabase_call_id': 333, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': None, 'initial_greeting': None, 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-24 18:30:19,336 - outbound-caller - INFO - Using firstName from metadata or default: Valued Customer
+2025-07-24 18:30:19,336 - outbound-caller - INFO - OUTBOUND CALL: To +33661329235
+2025-07-24 18:30:19,336 - outbound-caller - INFO - Default pathway found for agent: d5fc510b-7635-4715-9066-e522daa2336d
+2025-07-24 18:30:19,336 - outbound-caller - INFO - Agent ID from metadata: 11
+2025-07-24 18:30:19,336 - outbound-caller - INFO - User ID from metadata: b55837c4-270f-4f1f-8023-7ab09ee5f44d
+2025-07-24 18:30:19,336 - outbound-caller - INFO - System prompt is null - using WorkflowAgent with pathway-specific prompts
+2025-07-24 18:30:19,336 - outbound-caller - INFO - PAM Tier: core, Wait for Greeting: False, Interruption Threshold: 100ms
+2025-07-24 18:30:19,336 - outbound-caller - INFO - DEBUG: Full dial_info structure: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-333', 'supabase_call_id': 333, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': None, 'initial_greeting': None, 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-24 18:30:19,336 - outbound-caller - INFO - DEBUG: dial_info.get('dial_info'): {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-333', 'supabase_call_id': 333, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}
+2025-07-24 18:30:19,336 - outbound-caller - INFO - DEBUG: Extracted agent_caller_id_number: +33189311209
+2025-07-24 18:30:19,337 - outbound-caller - INFO - Agent Caller ID (agent_caller_id_number) found in job metadata: +33189311209
+2025-07-24 18:30:19,337 - outbound-caller - INFO - Utilisation du SIP Trunk ID des métadonnées: ST_6CYLZwTLMCe2
+2025-07-24 18:30:19,337 - outbound-caller - INFO - Utilisation du prompt système formaté depuis les métadonnées.
+2025-07-24 18:30:19,337 - outbound-caller - INFO - Final dial info for agent: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-333', 'supabase_call_id': 333, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': None, 'initial_greeting': None, 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-24 18:30:19,337 - outbound-caller - INFO - Agent will use name: Valued Customer
+2025-07-24 18:30:19,337 - outbound-caller - INFO - Dialing number: +33661329235
+2025-07-24 18:30:19,338 - outbound-caller - INFO - Configuration IA chargée depuis les métadonnées: {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}
+2025-07-24 18:30:19,428 - outbound-caller - INFO - Plugin VAD Silero chargé.
+2025-07-24 18:30:19,429 - outbound-caller - INFO - Plugin STT Deepgram chargé (lang: en, model: nova-2).
+2025-07-24 18:30:19,429 - outbound-caller - INFO - Plugin TTS Cartesia chargé (model: sonic-2, voice: f9836c6e-a0bd-460e-9d3c-f7299fa60f94).
+2025-07-24 18:30:19,667 - outbound-caller - INFO - Plugin LLM OpenAI chargé (model: gpt-4o-mini).
+2025-07-24 18:30:19,667 - outbound-caller - INFO - \U0001f3af Creating agent for pathway: d5fc510b-7635-4715-9066-e522daa2336d
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f3af' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\Python312\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\job_proc_lazy_main.py", line 353, in thread_main
+    client.run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\proc_client.py", line 86, in run
+    loop.run_until_complete(self._task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  [Previous line repeated 11 more times]
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 906, in entrypoint
+    logger.info(f"\U0001f3af Creating agent for pathway: {default_pathway_id}")
+Message: '\U0001f3af Creating agent for pathway: d5fc510b-7635-4715-9066-e522daa2336d'
+Arguments: ()
+2025-07-24 18:30:19,677 - outbound-caller - INFO - Attempting to dynamically import create_pathway_agent from pathway_agent_factory...
+2025-07-24 18:30:19,692 - outbound-caller - ERROR - Failed to create multi-agent pathway session: cannot import name 'VoiceAgent' from 'livekit.agents.voice' (C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\voice\__init__.py)
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 923, in entrypoint
+    from pathway_agent_factory import create_pathway_agent
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\pathway_agent_factory.py", line 15, in <module>
+    from pathway_global_context import (
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\pathway_global_context.py", line 22, in <module>
+    from livekit.agents.voice import VoiceAgent
+ImportError: cannot import name 'VoiceAgent' from 'livekit.agents.voice' (C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\voice\__init__.py)
+2025-07-24 18:30:19,694 - outbound-caller - INFO - --- Agent System Prompt ---
+2025-07-24 18:30:19,694 - outbound-caller - INFO - There was an error loading the pathway. Please inform the user and end the call.
+2025-07-24 18:30:19,695 - outbound-caller - INFO - --- End Agent System Prompt ---
+2025-07-24 18:30:19,695 - outbound-caller - INFO - Agent initialized for OUTBOUND call to None
+2025-07-24 18:30:19,695 - outbound-caller - INFO - OutboundCaller (Pam Assistant) initialized for Fallback Agent
+2025-07-24 18:30:19,695 - outbound-caller - INFO - dial_info provided: {'firstName': 'Valued Customer', 'lastName': '', 'dial_info': {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-333', 'supabase_call_id': 333, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}, 'system_prompt': None, 'initial_greeting': None, 'wait_for_greeting': False, 'pam_tier': 'core', 'interruption_threshold': 100, 'ai_models': {'vad': {'provider': 'silero'}, 'stt': {'provider': 'deepgram', 'language': 'en', 'model': 'nova-2'}, 'tts': {'provider': 'cartesia', 'model': 'sonic-2', 'voice_id': 'f9836c6e-a0bd-460e-9d3c-f7299fa60f94'}, 'llm': {'provider': 'openai', 'model': 'gpt-4o-mini'}}}
+2025-07-24 18:30:19,695 - outbound-caller - INFO - Initial greeting set to: Hello, there has been an issue with my configuration. I am unable to proceed with the call.
+2025-07-24 18:30:19,695 - outbound-caller - INFO - Wait for greeting: False
+2025-07-24 18:30:19,695 - outbound-caller - INFO - Interruption threshold: 100ms
+2025-07-24 18:30:19,695 - outbound-caller - INFO - Instantiating AgentSession with dynamically loaded plugins.
+2025-07-24 18:30:19,696 - outbound-caller - INFO - AgentSession created successfully with dynamic plugins.
+2025-07-24 18:30:19,696 - outbound-caller - INFO - OUTBOUND CALL: Attempting SIP dial to +33661329235 via trunk ST_6CYLZwTLMCe2 pour Supabase ID: 333
+2025-07-24 18:30:19,696 - outbound-caller - INFO - Préparation de l'en-tête SIP X-Client-State avec valeur (encodée): MzMz
+2025-07-24 18:30:19,696 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-333 (Supabase ID: 333) avec payload: {'new_status': 'dialing', 'supabase_call_id': '333'} via backend: http://localhost:8000/calls/room/agent-call-333/status
+2025-07-24 18:30:20,285 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-333 (Supabase ID: 333): {'message': 'Call status updated successfully', 'call': {'id': 333, 'created_at': '2025-07-24T16:30:11.970343+00:00', 'updated_at': '2025-07-24T16:30:20.306973+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'dialing', 'initiated_at': None, 'answered_at': None, 'ended_at': None, 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-333', 'pathway_execution_id': None, 'current_pathway_node_id': None, 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 43108, 'error_message': None, 'duration_seconds': None}}
+2025-07-24 18:30:20,285 - outbound-caller - INFO - Appel à ctx.api.sip.create_sip_participant avec phoneNumber: +33661329235, trunk: ST_6CYLZwTLMCe2, from: +33189311209, metadata: {"supabase_call_id": "333"}
+2025-07-24 18:30:20,918 - outbound-caller - INFO - SIP call created for +33661329235. Waiting for SIP participant to join room.
+2025-07-24 18:30:20,919 - outbound-caller - INFO - SIP participant 'agent_sip_participant_+33661329235' (PA_wALPBXKvGvMv) connected to room agent-call-333.
+2025-07-24 18:30:20,919 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-333 (Supabase ID: 333) avec payload: {'new_status': 'connected', 'supabase_call_id': '333'} via backend: http://localhost:8000/calls/room/agent-call-333/status
+2025-07-24 18:30:21,428 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-333 (Supabase ID: 333): {'message': 'Call status updated successfully', 'call': {'id': 333, 'created_at': '2025-07-24T16:30:11.970343+00:00', 'updated_at': '2025-07-24T16:30:21.447315+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'connected', 'initiated_at': None, 'answered_at': None, 'ended_at': None, 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-333', 'pathway_execution_id': None, 'current_pathway_node_id': None, 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 43108, 'error_message': None, 'duration_seconds': None}}
+2025-07-24 18:30:21,428 - outbound-caller - INFO - Call connected (OUTBOUND), participant joined. Starting agent session for supabase_call_id: 333
+2025-07-24 18:30:21,428 - outbound-caller - INFO - run_session_safely: AVANT appel à session.start() pour supabase_call_id: 333 (UTILISATION DE OutboundCaller - OUTBOUND CALL)
+2025-07-24 18:30:21,438 - outbound-caller - INFO - Auto-starting pathway execution: pathway_id=d5fc510b-7635-4715-9066-e522daa2336d, agent_id=11, call_id=333
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\Python312\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\job_proc_lazy_main.py", line 353, in thread_main
+    client.run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\ipc\proc_client.py", line 86, in run
+    loop.run_until_complete(self._task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\utils\aio\debug.py", line 16, in instrumented
+    val = _run(self)
+  [Previous line repeated 11 more times]
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 1106, in run_session_safely
+    pathway_execution_id = await auto_start_pathway_for_new_call(
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\api\agent_pathway_integration.py", line 69, in auto_start_pathway_for_new_call
+    logger.info(f"\u2705 Started pathway execution {execution_id} for call {call_id}")
+Message: '\u2705 Started pathway execution a2c240e1-f65b-4d23-a8f8-37e420bea718 for call 333'
+Arguments: ()
+2025-07-24 18:30:22,010 - outbound-caller - INFO - Pathway execution started successfully: a2c240e1-f65b-4d23-a8f8-37e420bea718
+2025-07-24 18:30:22,052 - outbound-caller - INFO - run_session_safely: APRÈS appel à session.start() pour supabase_call_id: 333 (OUTBOUND CALL). La session devrait avoir démarré et exécuté la logique de l'agent.
+2025-07-24 18:30:22,053 - outbound-caller - INFO - Agent session task finished normally for outbound call supabase_call_id: 333.
+2025-07-24 18:30:22,053 - outbound-caller - INFO - Fin du job pour la room agent-call-333 (OUTBOUND call, Supabase ID: 333). Statut final de session: completed
+2025-07-24 18:30:22,053 - outbound-caller - WARNING - TELNYX_API_KEY ou call_control_id manquant pour récupérer la durée réelle d'appel.
+2025-07-24 18:30:22,053 - outbound-caller - INFO - Tentative de mise à jour des infos pour room agent-call-333 (Supabase ID: 333) avec payload: {'new_status': 'completed', 'supabase_call_id': '333', 'call_duration_seconds': 1} via backend: http://localhost:8000/calls/room/agent-call-333/status
+2025-07-24 18:30:22,602 - outbound-caller - INFO - Infos mises à jour avec succès pour room agent-call-333 (Supabase ID: 333): {'message': 'Call status updated successfully', 'call': {'id': 333, 'created_at': '2025-07-24T16:30:11.970343+00:00', 'updated_at': '2025-07-24T16:30:22.626674+00:00', 'agent_id': 11, 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'to_phone_number': '+33661329235', 'status': 'completed', 'initiated_at': None, 'answered_at': None, 'ended_at': '2025-07-24T16:30:22.553702+00:00', 'call_duration': None, 'from_phone_number': None, 'ended_reason': None, 'livekit_room_name': None, 'livekit_participant_identity': None, 'provider': None, 'livekit_outbound_trunk_id': None, 'call_control_id': None, 'agent_name': None, 'telnyx_call_session_id': None, 'batch_campaign_id': None, 'batch_call_item_id': None, 'call_type': 'outbound', 'phone_number_e164': '+33661329235', 'contact_name': None, 'room_name': 'agent-call-333', 'pathway_execution_id': 'a2c240e1-f65b-4d23-a8f8-37e420bea718', 'current_pathway_node_id': 'conversation-1752584446694', 'pathway_variables': None, 'call_direction': 'outbound', 'caller_number': None, 'agent_process_pid': 43108, 'error_message': None, 'duration_seconds': 1}}
+2025-07-24 18:30:22,605 - outbound-caller - INFO - Session task awaited and completed for supabase_call_id 333.
+2025-07-24 18:30:22,605 - outbound-caller - INFO - Setting up to wait for participant 'agent_sip_participant_+33661329235' to disconnect as a final check...
+2025-07-24 18:30:22,605 - outbound-caller - INFO - Now waiting for participant 'agent_sip_participant_+33661329235' to disconnect (final check)...
+2025-07-24 18:30:27,036 - root - ERROR - error running user callback for participant_disconnected: room_handle: 3
+participant_disconnected {
+  participant_identity: "agent_sip_participant_+33661329235"
+  disconnect_reason: CLIENT_INITIATED
+}
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\rtc\room.py", line 560, in _listen_task
+    self._on_room_event(event.room_event)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\rtc\room.py", line 604, in _on_room_event
+    self.emit("participant_disconnected", rparticipant)
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\rtc\event_emitter.py", line 58, in emit
+    callback(*callback_args)
+TypeError: entrypoint.<locals>.on_participant_disconnected_callback() missing 1 required positional argument: 'room'

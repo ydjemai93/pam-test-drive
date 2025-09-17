@@ -1,0 +1,32 @@
+[AGENT] File logging enabled: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\logs\agent_493.log
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+{"message": "starting worker", "level": "INFO", "name": "livekit.agents", "version": "1.2.6", "rtc-version": "1.0.12", "timestamp": "2025-08-22T09:31:27.518806+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 30624, "timestamp": "2025-08-22T09:31:27.528450+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 38580, "timestamp": "2025-08-22T09:31:27.528450+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 33668, "timestamp": "2025-08-22T09:31:27.528450+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 22192, "timestamp": "2025-08-22T09:31:27.528450+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 38580, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:31:27.528450+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 22192, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:31:27.534241+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 30624, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:31:27.534241+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 33668, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:31:27.534241+00:00"}
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_LHnYFKLEeRyG", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "Germany", "protocol": 16, "timestamp": "2025-08-22T09:31:27.626509+00:00"}
+{"message": "worker is at full capacity, marking as unavailable", "level": "INFO", "name": "livekit.agents", "load": 0.7966000000000002, "threshold": "_WorkerEnvOption(dev_default=inf, prod_default=0.7)", "timestamp": "2025-08-22T09:36:31.046606+00:00"}
+{"message": "worker is below capacity, marking as available", "level": "INFO", "name": "livekit.agents", "load": 0.31920000000000026, "threshold": "_WorkerEnvOption(dev_default=inf, prod_default=0.7)", "timestamp": "2025-08-22T09:36:33.571414+00:00"}
+{"message": "failed to connect to livekit, retrying in 0s", "level": "WARNING", "name": "livekit.agents", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\venv\\Lib\\site-packages\\livekit\\agents\\worker.py\", line 689, in _connection_task\n    await self._run_ws(ws)\n  File \"C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\venv\\Lib\\site-packages\\livekit\\agents\\worker.py\", line 770, in _run_ws\n    await asyncio.gather(*tasks)\n  File \"C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\venv\\Lib\\site-packages\\livekit\\agents\\worker.py\", line 742, in _recv_task\n    raise Exception(\"worker connection closed unexpectedly\")\nException: worker connection closed unexpectedly", "timestamp": "2025-08-22T10:58:05.363982+00:00"}
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_WMaEdytSHdL5", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "Germany", "protocol": 16, "timestamp": "2025-08-22T10:58:05.475531+00:00"}
+{"message": "draining worker", "level": "INFO", "name": "livekit.agents", "id": "AW_WMaEdytSHdL5", "timeout": 1800, "timestamp": "2025-08-22T14:52:06.944843+00:00"}
+{"message": "shutting down worker", "level": "INFO", "name": "livekit.agents", "id": "AW_WMaEdytSHdL5", "timestamp": "2025-08-22T14:52:06.945853+00:00"}
+worker connection closed unexpectedly")
+Exception: worker connection closed unexpectedly
+2025-08-22 12:58:05,475 - livekit.agents - INFO - registered worker
+2025-08-22 16:52:06,944 - livekit.agents - INFO - draining worker
+2025-08-22 16:52:06,945 - livekit.agents - INFO - shutting down worker

@@ -1,0 +1,36 @@
+[AGENT] File logging enabled: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\logs\agent_494.log
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+{"message": "starting worker", "level": "INFO", "name": "livekit.agents", "version": "1.2.6", "rtc-version": "1.0.12", "timestamp": "2025-08-22T09:34:24.400357+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 23140, "timestamp": "2025-08-22T09:34:24.406574+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 29868, "timestamp": "2025-08-22T09:34:24.406574+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 21620, "timestamp": "2025-08-22T09:34:24.407662+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 6496, "timestamp": "2025-08-22T09:34:24.407662+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 23140, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:34:24.408621+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 21620, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:34:24.410582+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 29868, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:34:24.411624+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 6496, "elapsed_time": 0.0, "timestamp": "2025-08-22T09:34:24.411624+00:00"}
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_q9nLBCpYUH9a", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "Germany", "protocol": 16, "timestamp": "2025-08-22T09:34:24.512652+00:00"}
+{"message": "draining worker", "level": "INFO", "name": "livekit.agents", "id": "AW_q9nLBCpYUH9a", "timeout": 1800, "timestamp": "2025-08-22T14:52:06.943917+00:00"}
+{"message": "shutting down worker", "level": "INFO", "name": "livekit.agents", "id": "AW_q9nLBCpYUH9a", "timestamp": "2025-08-22T14:52:06.944843+00:00"}
+caller' on port 64208
+2025-08-22 11:34:24,400 - livekit.agents - INFO - starting worker
+2025-08-22 11:34:24,406 - livekit.agents - INFO - initializing job runner
+2025-08-22 11:34:24,406 - livekit.agents - INFO - initializing job runner
+2025-08-22 11:34:24,407 - livekit.agents - INFO - initializing job runner
+2025-08-22 11:34:24,407 - livekit.agents - INFO - initializing job runner
+2025-08-22 11:34:24,408 - livekit.agents - INFO - job runner initialized
+2025-08-22 11:34:24,410 - livekit.agents - INFO - job runner initialized
+2025-08-22 11:34:24,411 - livekit.agents - INFO - job runner initialized
+2025-08-22 11:34:24,411 - livekit.agents - INFO - job runner initialized
+2025-08-22 11:34:24,512 - livekit.agents - INFO - registered worker
+2025-08-22 16:52:06,943 - livekit.agents - INFO - draining worker
+2025-08-22 16:52:06,944 - livekit.agents - INFO - shutting down worker

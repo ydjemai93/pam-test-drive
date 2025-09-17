@@ -1,0 +1,35 @@
+[LOGGING] Applying ultimate PowerShell logging fixes...
+[LOGGING] Ultimate PowerShell logging fix completed!
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+[LOGGING] Re-applying PowerShell logging fix after LiveKit...
+[LOGGING] PowerShell logging fix re-applied!
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+{"message": "starting worker", "level": "INFO", "name": "livekit.agents", "version": "1.2.6", "rtc-version": "1.0.12", "timestamp": "2025-08-22T16:09:29.114361+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 32528, "timestamp": "2025-08-22T16:09:29.115732+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 39940, "timestamp": "2025-08-22T16:09:29.115732+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 15620, "timestamp": "2025-08-22T16:09:29.115732+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 31172, "timestamp": "2025-08-22T16:09:29.115732+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 32528, "elapsed_time": 0.0, "timestamp": "2025-08-22T16:09:29.126001+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 39940, "elapsed_time": 0.01, "timestamp": "2025-08-22T16:09:29.127916+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 15620, "elapsed_time": 0.01, "timestamp": "2025-08-22T16:09:29.129549+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 31172, "elapsed_time": 0.01, "timestamp": "2025-08-22T16:09:29.129863+00:00"}
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_aWDPs9DdDgHe", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "Germany", "protocol": 16, "timestamp": "2025-08-22T16:09:29.502326+00:00"}
+{"message": "received job request", "level": "INFO", "name": "livekit.agents", "job_id": "AJ_BYkEwSS7AgGF", "dispatch_id": "", "room_name": "agent-call-509", "agent_name": "outbound-caller", "resuming": false, "timestamp": "2025-08-22T16:09:34.538618+00:00"}
+{"message": "📞 Outbound Agent entrypoint called", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T16:09:34.572581+00:00"}
+{"message": "Starting entrypoint for supabase_call_id: 509", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T16:09:34.576486+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 22912, "timestamp": "2025-08-22T16:09:34.577499+00:00"}
+{"message": "📋 Extracted dial_info: {'agent_id': 11, 'call_direction': 'outbound', 'room_name': 'agent-call-509', 'supabase_call_id': 509, 'telnyx_call_control_id': None, 'default_pathway_id': 'd5fc510b-7635-4715-9066-e522daa2336d', 'user_id': 'b55837c4-270f-4f1f-8023-7ab09ee5f44d', 'auth_token': None, 'phone_number': '+33661329235', 'sip_trunk_id': 'ST_6CYLZwTLMCe2', 'agent_caller_id_number': '+33189311209'}", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T16:09:34.578493+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 22912, "elapsed_time": 0.0, "timestamp": "2025-08-22T16:09:34.580493+00:00"}
+{"message": "✅ Connected to LiveKit room", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-08-22T16:09:35.260382+00:00"}
+[LOGGING] Re-applying PowerShell logging fix after LiveKit...
+[LOGGING] PowerShell logging fix re-applied!
+[LOGGING] Re-applying PowerShell logging fix after LiveKit...
+[LOGGING] PowerShell logging fix re-applied!

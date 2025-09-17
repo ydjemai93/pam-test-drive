@@ -1,0 +1,48 @@
+[AGENT] File logging enabled: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\logs\agent_360.log
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+{"message": "starting worker", "level": "INFO", "name": "livekit.agents", "version": "1.1.6", "rtc-version": "1.0.11", "timestamp": "2025-07-25T16:55:32.786909+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 6740, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 25008, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 24120, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 25260, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 23480, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 21872, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 11176, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 18796, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 9240, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 23804, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 11936, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 25256, "timestamp": "2025-07-25T16:55:32.811606+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 6740, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 25008, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 11176, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 9240, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 11936, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 25256, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 24120, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 21872, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 25260, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 23804, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 23480, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 18796, "elapsed_time": 0.01, "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "see tracing information at http://localhost:53421/debug", "level": "INFO", "name": "livekit.agents", "timestamp": "2025-07-25T16:55:32.819204+00:00"}
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_nkhhfZziHvM8", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "France", "protocol": 16, "timestamp": "2025-07-25T16:55:32.941311+00:00"}
+{"message": "received job request", "level": "INFO", "name": "livekit.agents", "job_id": "AJ_WNxXKx4T28q3", "dispatch_id": "", "room_name": "agent-call-360", "agent_name": "outbound-caller", "resuming": false, "timestamp": "2025-07-25T16:55:34.970577+00:00"}
+{"message": "Starting entrypoint for supabase_call_id: 360", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-07-25T16:55:34.988592+00:00"}
+{"message": "Placeholder: Fetching pathway config for call_id 360 from backend...", "level": "INFO", "name": "outbound-caller", "timestamp": "2025-07-25T16:55:34.989593+00:00"}
+{"message": "Error fetching pathway config from Supabase for call_id 360: name 'get_call_details_from_supabase' is not defined", "level": "ERROR", "name": "outbound-caller", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py\", line 663, in get_pathway_for_call\n    call_details = await get_call_details_from_supabase(supabase, call_id)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'get_call_details_from_supabase' is not defined", "timestamp": "2025-07-25T16:55:34.990597+00:00"}
+{"message": "No pathway configuration found for call_id 360. Aborting.", "level": "ERROR", "name": "outbound-caller", "timestamp": "2025-07-25T16:55:34.997174+00:00"}
+{"message": "The job task completed without establishing a connection or performing a proper shutdown. Ensure that job_ctx.connect()/job_ctx.shutdown() is called and the job is correctly finalized.", "level": "WARNING", "name": "livekit.agents", "timestamp": "2025-07-25T16:55:34.997174+00:00"}
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 24616, "timestamp": "2025-07-25T16:55:35.082274+00:00"}
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 24616, "elapsed_time": 0.0, "timestamp": "2025-07-25T16:55:35.083273+00:00"}
+{"message": "draining worker", "level": "INFO", "name": "livekit.agents", "id": "AW_nkhhfZziHvM8", "timeout": 1800, "timestamp": "2025-07-25T17:04:04.585632+00:00"}
+{"message": "exiting forcefully", "level": "WARNING", "name": "livekit.agents", "timestamp": "2025-07-25T17:06:52.122872+00:00"}

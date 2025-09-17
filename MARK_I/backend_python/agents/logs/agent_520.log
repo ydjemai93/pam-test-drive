@@ -1,0 +1,75 @@
+[WINDOWS-FIX] Applying proven Windows subprocess logging fixes...
+[WINDOWS-FIX] [OK] Windows subprocess logging configured successfully
+2025-08-25 18:36:42,286 - outbound-caller - INFO - [STARTUP] OUTBOUND AGENT STARTING WITH WINDOWS SUBPROCESS FIX
+2025-08-25 18:36:42,286 - outbound-caller - INFO - [STARTUP] Script args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-08-25 18:36:42,286 - outbound-caller - INFO - [STARTUP] Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-08-25 18:36:42,286 - outbound-caller - INFO - [STARTUP] Current directory: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-08-25 18:36:42,286 - outbound-caller - INFO - [STARTUP] Default encoding: utf-8
+2025-08-25 18:36:42,286 - outbound-caller - INFO - [STARTUP] System locale: ('fr_FR', 'cp1252')
+2025-08-25 18:36:42,286 - outbound-caller - INFO - [STARTUP] Platform: win32
+
+============================================================
+[TEST] TESTING WINDOWS SUBPROCESS FIX
+============================================================
+[REALTIME] Executing: echo Windows subprocess test successful!
+Windows subprocess test successful!
+
+[REALTIME] [OK] Command completed (exit code: 0)
+2025-08-25 18:36:42,362 - outbound-caller - INFO - [STARTUP] [OK] Subprocess test result: Windows subprocess test successful!
+============================================================
+[STARTUP] CONTINUING WITH LIVEKIT AGENT INITIALIZATION
+============================================================
+
+2025-08-25 18:36:42,363 - outbound-caller - INFO - [STARTUP] PATIENT_NAME: Jayden
+2025-08-25 18:36:42,363 - outbound-caller - INFO - [STARTUP] APPOINTMENT_TIME: next Tuesday at 3pm
+2025-08-25 18:36:42,363 - outbound-caller - INFO - [STARTUP] LK_ROOM_NAME: agent-call-520
+2025-08-25 18:36:42,363 - outbound-caller - INFO - [STARTUP] LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-520", "supabase_call_id": 520, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": "test", "initial_greeting": "test", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-08-25 18:36:42,363 - outbound-caller - INFO - [STARTUP] LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-08-25 18:36:42,363 - outbound-caller - INFO - [STARTUP] LIVEKIT_API_KEY présent: Oui
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+2025-08-25 18:36:43,461 - db_client - INFO - Supabase service client initialized successfully.
+2025-08-25 18:36:43,461 - outbound-caller - INFO - [STARTUP] [OK] Supabase client imported successfully
+[DB_CLIENT DEBUG] SUPABASE_URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] SUPABASE_ANON_KEY: SET
+[DB_CLIENT DEBUG] SUPABASE_SERVICE_ROLE_KEY: SET
+[DB_CLIENT DEBUG] Creating Supabase service client with URL: https://ioddvuvaxqywbzfcjmpi.supabase.co
+[DB_CLIENT DEBUG] Supabase service client created successfully!
+2025-08-25 18:36:47,143 - api.db_client - INFO - Supabase service client initialized successfully.
+2025-08-25 18:36:47,152 - workflow-agent - INFO - [SUCCESS] App actions module imported successfully
+2025-08-25 18:36:47,165 - agent_pathway_integration - INFO - Agent Pathway Integration module loaded successfully
+2025-08-25 18:36:47,165 - outbound-caller - INFO - [STARTUP] Pathway integration loaded successfully
+2025-08-25 18:36:47,166 - root - INFO - Starting LiveKit Worker 'outbound-caller' on port 55432
+2025-08-25 18:36:47,172 - livekit.agents - INFO - starting worker
+{"message": "starting worker", "level": "INFO", "name": "livekit.agents", "version": "1.2.6", "rtc-version": "1.0.12", "timestamp": "2025-08-25T16:36:47.172157+00:00"}
+2025-08-25 18:36:47,194 - livekit.agents - INFO - initializing job runner
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 44596, "timestamp": "2025-08-25T16:36:47.194194+00:00"}
+2025-08-25 18:36:47,195 - livekit.agents - INFO - initializing job runner
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 45060, "timestamp": "2025-08-25T16:36:47.195512+00:00"}
+2025-08-25 18:36:47,197 - livekit.agents - INFO - initializing job runner
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 45720, "timestamp": "2025-08-25T16:36:47.197900+00:00"}
+2025-08-25 18:36:47,198 - livekit.agents - INFO - initializing job runner
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 19332, "timestamp": "2025-08-25T16:36:47.198895+00:00"}
+2025-08-25 18:36:47,207 - livekit.agents - INFO - job runner initialized
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 44596, "elapsed_time": 0.01, "timestamp": "2025-08-25T16:36:47.207429+00:00"}
+2025-08-25 18:36:47,210 - livekit.agents - INFO - job runner initialized
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 45060, "elapsed_time": 0.01, "timestamp": "2025-08-25T16:36:47.210428+00:00"}
+2025-08-25 18:36:47,212 - livekit.agents - INFO - job runner initialized
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 45720, "elapsed_time": 0.01, "timestamp": "2025-08-25T16:36:47.212482+00:00"}
+2025-08-25 18:36:47,214 - livekit.agents - INFO - job runner initialized
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 19332, "elapsed_time": 0.02, "timestamp": "2025-08-25T16:36:47.214511+00:00"}
+2025-08-25 18:36:47,444 - livekit.agents - INFO - registered worker
+{"message": "registered worker", "level": "INFO", "name": "livekit.agents", "id": "AW_anWWqygdNZ5t", "url": "wss://pamtestdrive-euxn3osq.livekit.cloud", "region": "Germany", "protocol": 16, "timestamp": "2025-08-25T16:36:47.444468+00:00"}
+2025-08-25 18:38:00,321 - livekit.agents - INFO - received job request
+{"message": "received job request", "level": "INFO", "name": "livekit.agents", "job_id": "AJ_59XPFC5BjcPf", "dispatch_id": "", "room_name": "agent-call-522", "agent_name": "outbound-caller", "resuming": false, "timestamp": "2025-08-25T16:38:00.321987+00:00"}
+2025-08-25 18:38:00,440 - livekit.agents - INFO - initializing job runner
+{"message": "initializing job runner", "level": "INFO", "name": "livekit.agents", "tid": 43168, "timestamp": "2025-08-25T16:38:00.440373+00:00"}
+2025-08-25 18:38:00,442 - livekit.agents - INFO - job runner initialized
+{"message": "job runner initialized", "level": "INFO", "name": "livekit.agents", "tid": 43168, "elapsed_time": 0.0, "timestamp": "2025-08-25T16:38:00.442372+00:00"}
+2025-08-25 18:40:06,043 - livekit.agents - INFO - draining worker
+{"message": "draining worker", "level": "INFO", "name": "livekit.agents", "id": "AW_anWWqygdNZ5t", "timeout": 1800, "timestamp": "2025-08-25T16:40:06.043585+00:00"}
+2025-08-25 18:40:46,531 - livekit.agents - WARNING - exiting forcefully
+{"message": "exiting forcefully", "level": "WARNING", "name": "livekit.agents", "timestamp": "2025-08-25T16:40:46.531740+00:00"}

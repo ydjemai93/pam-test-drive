@@ -1,0 +1,31 @@
+2025-07-23 23:15:26,337 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-07-23 23:15:26,338 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-07-23 23:15:26,338 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-07-23 23:15:26,338 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-07-23 23:15:26,340 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-07-23 23:15:26,344 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-07-23 23:15:26,344 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-07-23 23:15:26,344 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-326
+2025-07-23 23:15:26,344 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-326", "supabase_call_id": 326, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_6CYLZwTLMCe2", "agent_caller_id_number": "+33189311209"}, "system_prompt": null, "initial_greeting": null, "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "f9836c6e-a0bd-460e-9d3c-f7299fa60f94"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-07-23 23:15:26,344 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-07-23 23:15:26,344 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-07-23 23:15:28,057 - outbound-caller - INFO - Attempting to import multi-agent pathway factory...
+2025-07-23 23:15:28,059 - outbound-caller - ERROR - Failed to import multi-agent factory in outbound_agent: cannot import name 'VoiceAgent' from 'livekit.agents.voice' (C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\voice\__init__.py)
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 134, in <module>
+    from pathway_agent_factory import create_pathway_agent, create_legacy_pathway_agent
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\pathway_agent_factory.py", line 15, in <module>
+    from pathway_global_context import (
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\pathway_global_context.py", line 22, in <module>
+    from livekit.agents.voice import VoiceAgent
+ImportError: cannot import name 'VoiceAgent' from 'livekit.agents.voice' (C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\voice\__init__.py)
+2025-07-23 23:15:28,063 - outbound-caller - INFO - Pathway integration loaded successfully
+outbound_agent: cannot import name 'VoiceAgent' from 'livekit.agents.voice' (C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\voice\__init__.py)
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 134, in <module>
+    from pathway_agent_factory import create_pathway_agent, create_legacy_pathway_agent
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\pathway_agent_factory.py", line 15, in <module>
+    from pathway_global_context import (
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\pathway_global_context.py", line 22, in <module>
+    from livekit.agents.voice import VoiceAgent
+ImportError: cannot import name 'VoiceAgent' from 'livekit.agents.voice' (C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\voice\__init__.py)

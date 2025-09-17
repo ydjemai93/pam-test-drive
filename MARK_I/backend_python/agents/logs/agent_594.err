@@ -1,0 +1,53 @@
+2025-09-04 18:44:22 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-09-04 18:44:22 - outbound-caller - INFO - Outbound Agent script démarre, args: ['C:\\Users\\y.djemai\\pam-testdrive\\MARK_I\\backend_python\\agents\\outbound_agent.py', 'start']
+2025-09-04 18:44:22 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-09-04 18:44:22 - outbound-caller - INFO - Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+2025-09-04 18:44:22 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-09-04 18:44:22 - outbound-caller - INFO - Répertoire courant: C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents
+2025-09-04 18:44:22 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-09-04 18:44:22 - outbound-caller - INFO - Encodage par défaut: utf-8
+2025-09-04 18:44:22 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-09-04 18:44:22 - outbound-caller - INFO - Locale système: ('fr_FR', 'UTF-8')
+2025-09-04 18:44:22 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-09-04 18:44:22 - outbound-caller - INFO - PATIENT_NAME: Jayden
+2025-09-04 18:44:22 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-09-04 18:44:22 - outbound-caller - INFO - APPOINTMENT_TIME: next Tuesday at 3pm
+2025-09-04 18:44:22 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-594
+2025-09-04 18:44:22 - outbound-caller - INFO - LK_ROOM_NAME: agent-call-594
+2025-09-04 18:44:22 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-594", "supabase_call_id": 594, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_PbvRkJirPYJY", "agent_caller_id_number": "+12067364320"}, "system_prompt": "test", "initial_greeting": "test", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "031851ba-cc34-422d-bfdb-cdbb7f4651ee"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-09-04 18:44:22 - outbound-caller - INFO - LK_JOB_METADATA: {"firstName": "Valued Customer", "lastName": "", "dial_info": {"agent_id": 11, "call_direction": "outbound", "room_name": "agent-call-594", "supabase_call_id": 594, "telnyx_call_control_id": null, "default_pathway_id": "d5fc510b-7635-4715-9066-e522daa2336d", "user_id": "b55837c4-270f-4f1f-8023-7ab09ee5f44d", "phone_number": "+33661329235", "sip_trunk_id": "ST_PbvRkJirPYJY", "agent_caller_id_number": "+12067364320"}, "system_prompt": "test", "initial_greeting": "test", "wait_for_greeting": false, "pam_tier": "core", "interruption_threshold": 100, "ai_models": {"vad": {"provider": "silero"}, "stt": {"provider": "deepgram", "language": "en", "model": "nova-2"}, "tts": {"provider": "cartesia", "model": "sonic-2", "voice_id": "031851ba-cc34-422d-bfdb-cdbb7f4651ee"}, "llm": {"provider": "openai", "model": "gpt-4o-mini"}}}
+2025-09-04 18:44:22 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-09-04 18:44:22 - outbound-caller - INFO - LIVEKIT_URL: wss://pamtestdrive-euxn3osq.livekit.cloud
+2025-09-04 18:44:22 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-09-04 18:44:22 - outbound-caller - INFO - LIVEKIT_API_KEY présent: Oui
+2025-09-04 18:44:24 - db_client - INFO - Supabase service client initialized successfully.
+2025-09-04 18:44:24 - outbound-caller - INFO - ✅ Supabase client imported successfully
+2025-09-04 18:44:24 - outbound-caller - INFO - ✅ Supabase client imported successfully
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\outbound_agent.py", line 280, in <module>
+    from livekit.agents import (
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\__init__.py", line 23, in <module>
+    from . import cli, ipc, llm, metrics, stt, tokenize, tts, utils, vad, voice  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\llm\__init__.py", line 13, in <module>
+    from .fallback_adapter import AvailabilityChangedEvent, FallbackAdapter
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\llm\fallback_adapter.py", line 14, in <module>
+    from .llm import LLM, ChatChunk, LLMStream
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 21, in <module>
+    from ..metrics import LLMMetrics
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\metrics\__init__.py", line 10, in <module>
+    from .usage_collector import UsageCollector, UsageSummary
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\agents\venv\Lib\site-packages\livekit\agents\metrics\usage_collector.py", line 7, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\dataclasses.py", line 1268, in dataclass
+    return wrap(cls)
+           ^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\dataclasses.py", line 1258, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\dataclasses.py", line 1091, in _process_class
+    _set_new_attribute(cls, '__eq__',
+  File "C:\Program Files\Python312\Lib\dataclasses.py", line 870, in _set_new_attribute
+    setattr(cls, name, value)
+KeyboardInterrupt
