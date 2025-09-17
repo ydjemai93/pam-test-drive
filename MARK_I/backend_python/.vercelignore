@@ -1,0 +1,20 @@
+# Exclude large directories and files
+venv/
+venv_clean/
+agents/
+outbound/
+services/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.local
+*.log
+*.err
+.git/
+
+# Exclude all api files except index.py
+api/*
+!api/index.py

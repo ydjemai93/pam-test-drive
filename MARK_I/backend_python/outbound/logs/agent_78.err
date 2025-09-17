@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\y.djemai\pam-testdrive\MARK_I\backend_python\outbound\simple_agent.py", line 6, in <module>
+    from livekit.plugins import elevenlabs, openai, silero, deepgram
+ImportError: cannot import name 'elevenlabs' from 'livekit.plugins' (unknown location)

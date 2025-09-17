@@ -1,0 +1,6 @@
+{
+	"sip_call_to": "+33661329235",
+	"room_name": "my-sip-room",
+	"participant_identity": "sip-test",
+	"participant_name": "Test Call"
+}
