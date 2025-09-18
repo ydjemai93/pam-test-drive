@@ -1,0 +1,45 @@
+# Core FastAPI and server
+fastapi==0.115.5
+uvicorn[standard]==0.34.2
+pydantic==2.11.3
+pydantic-settings==2.9.1
+
+# HTTP client for external API calls
+httpx==0.28.1
+
+# Database and ORM
+supabase==2.9.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+sqlalchemy[asyncio]==2.0.36
+
+# CORS middleware
+starlette==0.41.0
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.12
+
+# LiveKit SDK for real-time audio/video
+livekit==1.0.8
+livekit-api==1.0.8
+
+# Telnyx SDK for telephony
+telnyx==2.0.0
+
+# OpenAI for AI services
+openai==1.56.0
+
+# Environment management
+python-dotenv==1.0.1
+
+# Pipedream Connect integration
+pipedream==0.1.6
+
+# Additional utilities
+validators==0.34.0
+emoji==2.14.0
+
+# Cryptography for secure integrations
+cryptography==43.0.3
