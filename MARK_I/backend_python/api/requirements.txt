@@ -9,21 +9,19 @@ httpx==0.24.1
 aiofiles==24.1.0
 python-dotenv==1.1.0
 
-# Database and Supabase
+# Database and Supabase - FIXED COMPATIBILITY VERSIONS
 supabase==1.2.0
 postgrest==0.11.0
+python-dateutil==2.8.2
+six==1.16.0
 
 # LiveKit integration
 livekit>=1.0.8
-livekit-agents>=1.0.0
 
-# Additional dependencies that might be missing
+# Additional dependencies
 typing-extensions==4.13.2
 anyio==4.9.0
 jsonschema==4.21.1
-
-# Windows-specific fixes for async issues
-# winloop==0.1.6; sys_platform == "win32"  # Commented out due to compilation issues
 python-multipart==0.0.2
 
 # App Integrations Dependencies
@@ -31,4 +29,4 @@ cryptography>=3.4.8
 aiohttp>=3.8.0
 
 # Agent Launcher Dependencies
-psutil>=5.9.0  # For process monitoring and management
+psutil>=5.9.0
